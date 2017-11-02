@@ -146,12 +146,12 @@ public class WabiSabiNomina {
          System.out.println("Escriba los nombres del trabajador:\n");
          tra.setNomb(en.next());
          Out.print(tra.getNomb()+ ";");
-         System.out.println("Escriba el cargo del trabajador:\n");
-         tra.setCargo(en.next());
-         Out1.println(tra.getNomb()+ ";");
          System.out.println("Escriba el Apellido del trabajador:\n");
          tra.setApe(en.next());
          Out1.print(tra.getCargo()+ ";");
+          System.out.println("Escriba el cargo del trabajador:\n");
+         tra.setCargo(en.next());
+         Out1.println(tra.getNomb()+ ";");
          System.out.println("Escriba lugar de expedicion del documento:\n");
          tra.setLTi(en.next());
          Out1.print(tra.getLTi()+ ";");
