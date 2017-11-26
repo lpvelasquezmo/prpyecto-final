@@ -15,20 +15,19 @@ public class Empresa {
     
     private ArrayList <contrato> contratos;
     private ArrayList <trabajador> tras;
-    private Turno[] turnos;
-    private int NumTurnos;
+   // private ArrayList <Turno> turnos;
     private String nombre;
     private String Rlegal;
-    private double nit;
+    private String usuario;
+    private String contraseña;
+    private String nit;
     private String Dir;
-    private double tel;
+    private String tel;
     private String Rgimen;
     private boolean granCont;
     private String tipoAport;
     private String moneda;
-   
-    Scanner en = new Scanner (System.in);
-    
+     
     
     public String getRgimen() {
         return Rgimen;
@@ -39,41 +38,48 @@ public class Empresa {
         this.Rgimen = Rgimen;
     }
 
-    public Turno[] getTurnos() {
-        return turnos;
-    }
-
-    public void setTurnos(Turno[] turnos) {
-        this.turnos = turnos;
-    }
+   
 
     public Empresa() {
         this.nombre = "";
         this.Rgimen = "";
-        this.contratos = new ArrayList <>();
+       this.contratos = new ArrayList <>();
         this.tras = new ArrayList <>();
-        this.turnos = new Turno [this.NumTurnos];
-        this.NumTurnos = 0;        
+//         this.turnos = new ArrayList <>();
         this.Rlegal = "";
-        this.nit = 0;
+        this.nit = "";
         this.Dir = "";
-        this.tel = 0;
+        this.tel = "";
         this.granCont = false;
         this.moneda = "";
+        this.usuario ="";
+        this.contraseña ="";
     }
 
-    public ArrayList<contrato> getContratos() {
-        return contratos;
+    public String getUsuario() {
+        return usuario;
     }
 
-    public void setContratos(ArrayList<contrato> contratos) {
-        this.contratos = contratos;
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
     }
+
+    public String getContraseña() {
+        return contraseña;
+    }
+
+    public void setContraseña(String contraseña) {
+        this.contraseña = contraseña;
+    }
+
+   
+
+   
     
     
     public boolean addContra (contrato Contrato){
         return this.contratos.add(Contrato);
-    }
+     }
 
     public boolean addTrab (trabajador Tra){
         return this.tras.add(Tra);
@@ -86,58 +92,38 @@ public class Empresa {
        
      public boolean RenovarContrato (){
         boolean  aux = false;
-         
+        //FFFFFFFFFFFFFF
          
          return aux; 
      } 
      
      
      
-     public boolean eliminarContra (contrato Contrato){
-        boolean aux = false;
-         if (aux == false){
-             
-             aux = this.contratos.remove(Contrato);
-             
-         }
-         return aux;
+     public boolean eliminarContra (contrato Contrato1){
+        
+            return this.contratos.remove(Contrato1);
+
      }
      
-      public boolean addTurno (float hoini, float hofin, int id){
-         boolean au = false;
-                  Turno turno = new Turno ();
-                 while (au = false){
-        
-         au = turno.Turno(hoini, hofin, id);
-                        
-                 }
-                 for (int i=0; i<this.turnos.length; i++){
-                 if (this.turnos [i]==null){
-                 this.turnos[i] = turno; 
-                 }
-                 }
-                 return au;
-     }
+     
+     
+//     public boolean eliminarTur(Turno turno){
+//         return this.turnos.remove(turno);
+//     }
+//     
+//      public boolean addTurno (Turno turno){
+//        
+//         return this.turnos.add(turno);
+//     }
     
       
-    public Turno buscarT (int id) {
-        
-        Turno turno=null;
-        for (int ih = 0; ih < this.NumTurnos; ih++) {
-            if (this.turnos[ih].getId()== id) {
-               
-                turno = this.turnos[ih];
-                
-            }
-        }
-        return turno;
-    }
+
     
     
     
-    public String tipoAportador (ArrayList <contrato> contratos){
-       int tama =contratos.size();
-        if (tama> 20){
+    public String tipoAportador (int nEmple){
+       
+        if (nEmple> 20){
             this.tipoAport = "Gran Aportador";
         }  else {
             this.tipoAport = "Pequeño Aportador";
@@ -157,13 +143,15 @@ public class Empresa {
         this.tras = tras;
     }
 
-    public int getNumTurnos() {
-        return NumTurnos;
-    }
-
-    public void setNumTurnos(int NumTurnos) {
-        this.NumTurnos = NumTurnos;
-    }
+//    public ArrayList<Turno> getTurnos() {
+//        return turnos;
+//    }
+//
+//    public void setTurnos(ArrayList<Turno> turnos) {
+//        this.turnos = turnos;
+//    }
+//
+//   
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -177,11 +165,11 @@ public class Empresa {
         this.Rlegal = Rlegal;
     }
 
-    public double getNit() {
+    public String getNit() {
         return nit;
     }
 
-    public void setNit(double nit) {
+    public void setNit(String nit) {
         this.nit = nit;
     }
 
@@ -193,13 +181,16 @@ public class Empresa {
         this.Dir = Dir;
     }
 
-    public double getTel() {
+    public String getTel() {
         return tel;
     }
 
-    public void setTel(double tel) {
+    public void setTel(String tel) {
         this.tel = tel;
     }
+
+   
+    
 
   
 
@@ -213,6 +204,14 @@ public class Empresa {
 
     public String isTipoAport() {
         return tipoAport;
+    }
+
+    public ArrayList<contrato> getContratos() {
+        return contratos;
+    }
+
+    public void setContratos(ArrayList<contrato> contratos) {
+        this.contratos = contratos;
     }
 
     public void setTipoAport(String tipoAport) {

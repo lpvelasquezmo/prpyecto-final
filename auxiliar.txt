@@ -1,0 +1,14 @@
+respuestas Teoria :
+1.  false
+2.  verdadero
+3.  verdadero
+4.  verdadero
+5. si son equivalentes
+
+9911;indefinido;edfv;11;11;2017;0;0;0;8;12;funza;
+9912;indefinido;lina;11;12;2017;0;0;0;2;12;fvb;
+
+
+false;11;12;1999;vende;lina;lina;9911;lina;lina;1234.0;700000.0;9911;
+false;11;11;1999;mora;mora;mora;9912;mora;mor;123456.0;900000.0;9912;
+

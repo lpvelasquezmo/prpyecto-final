@@ -13,9 +13,16 @@ public class Turno {
     private float hoini;
     private int id;
     private float hofin;
-    private String tipo;
+    private int horaDiur;
+    private int horaNoct;
 
     public Turno() {
+        this.hofin = 0;
+        this.hoini = 0;
+        this.horaDiur =0;
+        this.horaNoct =0;
+        this.id =0;
+     
     }
     
     public boolean Turno(float hoini, float hofin, int id) {
@@ -27,36 +34,35 @@ public class Turno {
             this.hoini = hoini;
             this.hofin = hofin;
              if  (hoini>= 6 && hofin <= 21){
-            this.tipo = "Diurno";
+            this.horaDiur= 8;
+            this.horaNoct =0;
         }else if (hoini > 21 && hofin <6){
-            this.tipo = "Nocturno";
-        }else {
-            System.out.println("El turno mezcla horas diurnas y norturas");
-            this.tipo = "Mezcla";
-            if ( this.hofin >= 6 && this.hofin <= 21){
+            this.horaNoct = 8;
+            this.horaDiur=0;
+        }else if ( this.hofin >= 6 && this.hofin <= 21){
                 for (int i= 1; i<16; i++){
                     float aux1 = this.hofin ;
                             aux1 -=i;
                             if(aux1 >21 && aux1<6){
-                                hoDiur =i;
-                                hoNoct = 8-i;
+                               this.horaDiur =i;
+                               this.horaNoct = 8-i;
                                 i=30;                                
                             }
                                      }
                 
             }
-            if (this.hofin >21 && this.hofin<6){
+          else  if (this.hofin<6 || this.hofin >21){
                 for(int j =1; j<10; j++){
                     float aux2 = this.hofin;
                     aux2-=j;
                     if (aux2>=6 && aux2 <=21){
-                        hoNoct = j;
-                        hoDiur = 8-j;
+                        this.horaDiur = j;
+                        this.horaNoct = 8-j;
                         j=30;
                     }
                 }
                 
-            }
+            
                  System.out.println("Horas Diurnas :    " +  hoDiur  + "\n" + "Horas Nocturnas :    "  + hoNoct + "\n" );
         } aux = true;
         }else{
@@ -91,13 +97,23 @@ public class Turno {
         this.hofin = hofin;
     }
 
-    public String getTipo() {
-        return tipo;
+    public int getHoraDiur() {
+        return horaDiur;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setHoraDiur(int horaDiur) {
+        this.horaDiur = horaDiur;
     }
+
+    public int getHoraNoct() {
+        return horaNoct;
+    }
+
+    public void setHoraNoct(int horaNoct) {
+        this.horaNoct = horaNoct;
+    }
+
+  
      
     
     

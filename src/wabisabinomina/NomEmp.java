@@ -20,7 +20,29 @@ public class NomEmp {
     private double icbf;
     private double CajaCompFa;
 
-    public double getSena() {
+//
+//4 8
+//salari extra deducciones 
+    public NomEmp(double totalDeven, boolean aporPa) {
+        this.totalDeven = totalDeven;
+        this.aporPa = aporPa;
+        if (this.aporPa == true){
+            this.CajaCompFa = (0.04 * totalDeven);
+            this.icbf = (0.03 * totalDeven);
+            this.sena = (0.02 * totalDeven );          
+        } else {
+            this.CajaCompFa = 0; this.icbf = 0; this.sena = 0;
+        }
+    } 
+    
+    public void AportesSociales ( double totalDeven){
+        this.PensEmp= (totalDeven * 0.12);
+        this.SaludEmp = (totalDeven * 0.085);
+        this.SegSocEmpre = (totalDeven * 0.085);
+    }
+    
+    
+        public double getSena() {
         return sena;
     }
 
@@ -43,25 +65,6 @@ public class NomEmp {
     public void setCajaCompFa(double CajaCompFa) {
         this.CajaCompFa = CajaCompFa;
     }
-
-    public NomEmp(double totalDeven, boolean aporPa) {
-        this.totalDeven = totalDeven;
-        this.aporPa = aporPa;
-        if (this.aporPa == true){
-            this.CajaCompFa = (0.04 * totalDeven);
-            this.icbf = (0.03 * totalDeven);
-            this.sena = (0.02 * totalDeven );          
-        } else {
-            this.CajaCompFa = 0; this.icbf = 0; this.sena = 0;
-        }
-    } 
-    
-    public void AportesSociales ( double totalDeven){
-        this.PensEmp= (totalDeven * 0.12);
-        this.SaludEmp = (totalDeven * 0.085);
-        this.SegSocEmpre = (totalDeven * 0.085);
-    }
-    
 
     public double getTotalDeven() {
         return totalDeven;

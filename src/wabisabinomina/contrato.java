@@ -13,45 +13,88 @@ import java.util.Scanner;
  */
 public class contrato {
    private String tipo;
-   private trabajador empleador;
-   private trabajador empleado;
+   private String id;
+   private String empleador;
+  // private trabajador empleado;
    private String LugCont;
-   private float fechaI;
-   private float fechaF;
-   private double id;
+   private int horaI;
+   private int horaF; 
+   private int TotalHoras;
+   private fecha fechaI;
+   private int DiContra; 
+   private fecha fechaF;
 
    public contrato(){
-       
+       this.fechaI = new fecha();
+       this.fechaF = new fecha();
    }
    
-    public contrato(boolean aux ,String fecha, String nomb, String ape, double ti, String LTi, String dire, double tel, double salario, Turno sutur, String LugCont, double id, String tipo, trabajador empleador, float fechaI) {
+    public contrato(int hoI, int Hof, String id, String tipo, String empleador, int diaI, int mesI, int anoI, int diaF,int mesF , int anoF , String LugCont) {
         this.tipo = tipo;
-        this.LugCont = LugCont;
+        this.horaI = hoI;
+        this.horaF = Hof;
+        int auxi = Hof - hoI;
+        this.TotalHoras = auxi; System.out.println("hora total: " + this.TotalHoras);
         this.id = id;
+        this.fechaI = new fecha (diaI, mesI, anoI);
+        this.fechaF = new fecha (diaF, mesF, anoF);
+        this.LugCont = LugCont;
         this.empleador = empleador;
-        this.empleado = new trabajador (aux ,fecha, nomb, ape, ti, LTi, dire, tel, salario, sutur);
+     //   this.empleado = new trabajador (aux ,fecha, nomb, ape, ti, LTi, dire, tel, salario, sutur);
          this.fechaI = fechaI;
 
                
     }
 
-    public double getId() {
+    public int getHoraI() {
+        return horaI;
+    }
+
+    public void setHoraI(int horaI) {
+        this.horaI = horaI;
+    }
+
+    public int getHoraF() {
+        return horaF;
+    }
+
+    public void setHoraF(int horaF) {
+        this.horaF = horaF;
+    }
+
+    public int getTotalHoras() {
+        return TotalHoras;
+    }
+
+    public void setTotalHoras(int TotalHoras) {
+        this.TotalHoras = TotalHoras;
+    }
+
+  
+
+    
+
+    public int getDiContra() {
+        return DiContra;
+    }
+
+    public void setDiContra(int DiContra) {
+        this.DiContra = DiContra;
+    }
+    
+    
+
+    public String getId() {
         return id;
     }
 
-    public void setId(double id) {
+    public void setId(String id) {
         this.id = id;
     }
-    
-         public float fechaFin(){
-                     if (tipo.equals("Fijo")){
-            Scanner q = new Scanner (System.in);
-            System.out.println("Escriba la fecha de finalizacion del contrato: (dia.mes.año)");
-            float fFinal = q.nextFloat();
-            this.fechaF= fFinal;
-        }
-return this.fechaF;
-        }
+
+  
+   
+
 
     public String getLugCont() {
         return LugCont;
@@ -71,38 +114,33 @@ return this.fechaF;
         this.tipo = tipo;
     }
 
-    public trabajador getEmpleador() {
+    public String getEmpleador() {
         return empleador;
     }
 
-    public void setEmpleador(trabajador empleador) {
+    public void setEmpleador(String empleador) {
         this.empleador = empleador;
     }
 
-    public trabajador getEmpleado() {
-        return empleado;
-    }
-
-    public void setEmpleado(trabajador empleado) {
-        this.empleado = empleado;
-    }
-
-    public float getFechaI() {
+    public fecha getFechaI() {
         return fechaI;
     }
 
-    public void setFechaI(float fechaI) {
+    public void setFechaI(fecha fechaI) {
         this.fechaI = fechaI;
     }
 
-    public float getFechaF() {
+    public fecha getFechaF() {
         return fechaF;
     }
 
-    public void setFechaF(float fechaF) {
+    public void setFechaF(fecha fechaF) {
         this.fechaF = fechaF;
     }
-    
+
+   
+
+ 
    
     
    

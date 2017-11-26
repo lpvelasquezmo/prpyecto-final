@@ -14,27 +14,44 @@ public class trabajador extends Persona {
     // forma de variar el turno
    private String cargo;
    private contrato sucontra;
-   private Turno sutur;
-
-    public Turno getSutur() {
-        return sutur;
-    }
-
-    public void setSutur(Turno sutur) {
-        this.sutur = sutur;
-    }
+  // private Turno sutur;
    private boolean aux;
    private double salario;
-   
+  
+   public trabajador (){
+       
+   }
     
-    
-    public trabajador(boolean aux ,String fecha, String nomb, String ape, double ti, String LTi, String dire, double tel, double salario, Turno sutur) {
-        super(fecha, nomb, ape, ti, LTi, dire, tel);
+     
+    public trabajador(boolean aux ,int dia, int mes, int anio, String cargo, String nomb, String ape, String ti,String LTi, String dire, double tel, double salario,  contrato Contra) {
+        super( dia, mes, anio,  nomb, ape,  ti, LTi, dire, tel) ;
         this.salario = salario;
-        this.sutur = sutur;
+        this.cargo = cargo;
+        //this.sutur = sutur;
+        this.sucontra = Contra;
         this.aux = aux;
       //  contrato sucontra = null;
     }
+
+    
+    
+    public contrato getSucontra() {
+        return sucontra;
+    }
+
+    public void setSucontra(contrato sucontra) {
+        this.sucontra = sucontra;
+    }
+    
+    
+      
+//       public Turno getSutur() {
+//        return sutur;
+//    }
+//
+//    public void setSutur(Turno sutur) {
+//        this.sutur = sutur;
+//    }
 
     public String getCargo() {
         return cargo;

@@ -1,0 +1,30 @@
+                          ;PORTAL MARINO PESCADERIA;   
+                          ;123;   
+                          ;COMPROBATE DE PAGO DE SALARIO;   
+EMPLEADO                  ;;alejandrofernandez;
+C.C.                      ;;9912;
+CARGO                     ; ;comprador
+SALARIO BASICO            ;;900000.0;
+PERIODO DE PAGO           ;;25.11.2017 a 25.11.2017
+FECHA DE PAGO             ;;25.11.2017
+CIUDAD                    ;;BOGOTA D.C.
+PAGOS                     ;
+Salario                   ;;$450000.0;
+Dominicales               ;;$90000.0;
+Auxilio de transporte     ;;$41570.0;
+TOTAL PAGOS               ;; ;$581570.0;
+ ; ; ;
+DEDUCCIONES               ;
+Descto seguridad salud    ; ;$18000.0;
+Descto seguridad pension  ; ;$18000.0
+Vale por Almuerzos        ;;$1800.0
+Prestamos                 ;;$0.0
+TOTAL DEDUCCIONES         ;; ;$-55800.0
+; ; ;
+NETO A PAGAR              ;; ;$ 637370.0
+; ; ;
+; ; ;
+Autorizado por:           ;;Recibe conforme:;
+; ; ;
+__________________________;;_____________________________ ;
+YULINA GARCIA; ;alejandrofernandez;
