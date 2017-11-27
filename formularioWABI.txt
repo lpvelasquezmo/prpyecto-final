@@ -1,0 +1,18 @@
+sacarnonima;
+
+
+    System.out.println("Nomina para el Trabajador:  " + trab.getNomb() + "  "+ trab.getApe());
+            
+           
+            System.out.println("Prestamos al trabajador\n");
+            
+                System.out.println("Descontar dia\n");
+                
+                System.out.println("Descontar horas \n");
+                
+                System.out.println("Horas Extra: \n");
+                
+           
+      System.out.println("Dominicales trabajados:\n");
+                
+

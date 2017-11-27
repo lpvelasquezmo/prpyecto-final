@@ -5,6 +5,22 @@
  */
 package interfaz;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.InputMismatchException;
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
+import rojerusan.RSPanelsSlider;
+import wabisabinomina.Empresa;
+import wabisabinomina.WabiSabiNomina;
+import wabisabinomina.contrato;
+import wabisabinomina.trabajador;
+
 /**
  *
  * @author Maicol Velasquez
@@ -14,9 +30,41 @@ public class JNomina extends javax.swing.JFrame {
     /**
      * Creates new form JNomina
      */
+    Empresa empresa ;
+    File archiTrab = new File("Empresa/Trabajadores.txt");
+        File archiEmpr = new File("Empresa/Datos Empresa.txt");
+        File archiCont = new File("Empresa/Contratos.txt");
+        File archiNom = new File("Empresa/Nomina.txt");
+        File archiFecha = new File("Empresa/FechaNomina.txt");
+    IconoCombo ic ;
+    IcoCombo icNO;
+    
+    
     public JNomina() {
         initComponents();
-        this.setLocationRelativeTo(this);
+        Scanner de = new Scanner (System.in);
+        empresa =  new Empresa();
+        
+        
+        new WabiSabiNomina().iniciar(empresa, archiEmpr, de);
+        new WabiSabiNomina().leerContras(archiCont, empresa);
+        //System.out.println("hoa1   " +empresa.getContratos().size());
+        
+       // new WabiSabiNomina().fin ( empresa, archiCont);
+      //  new WabiSabiNomina().leerTurns(archiTur, empresa);
+       // System.out.println("hoa2");
+        new WabiSabiNomina().leerTrabs(archiTrab, empresa);
+        
+        ic = new IconoCombo();
+        jComboBoxContrato.setRenderer(ic);
+        icNO = new IcoCombo();
+        jComboBoxNominaF.setRenderer (icNO);
+                this.setExtendedState(MAXIMIZED_BOTH);
+
+       // this.setLocationRelativeTo(this);
+                setIconImage(new ImageIcon(getClass().getResource("/interfaz/imagenes/logows1.png")).getImage());       
+
+       // this.setResizable(false);
     }
 
     /**
@@ -28,77 +76,209 @@ public class JNomina extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jButtonEditarD2 = new javax.swing.JButton();
-        jButtonEditarD3 = new javax.swing.JButton();
-        jButtonEditarD4 = new javax.swing.JButton();
-        jButtonEditarD5 = new javax.swing.JButton();
+        jLabelImaNo = new javax.swing.JLabel();
+        jButtonCerrarSe = new javax.swing.JButton();
+        jButtonRegresar = new javax.swing.JButton();
+        jComboBoxContrato = new javax.swing.JComboBox<>();
+        jComboBoxNominaF = new javax.swing.JComboBox<>();
         jLabelfondomain = new javax.swing.JLabel();
+        rSPanelsSlider1 = new rojerusan.RSPanelsSlider();
+        jPanelCrearC = new javax.swing.JPanel();
+        jLabelCrear = new javax.swing.JLabel();
+        jPanelEliminarC = new javax.swing.JPanel();
+        jLabeleli = new javax.swing.JLabel();
+        jTextFieldIden = new javax.swing.JTextField();
+        jLabelTextEli = new javax.swing.JLabel();
+        jButtonBuscEli = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextAreaEli = new javax.swing.JTextArea();
+        jPanelHacerNO = new javax.swing.JPanel();
+        jLabelHacer = new javax.swing.JLabel();
+        jPanelBuscarC = new javax.swing.JPanel();
+        jLabelBuscarC = new javax.swing.JLabel();
+        jPanelVerNO = new javax.swing.JPanel();
+        jLabelVerNo = new javax.swing.JLabel();
+        jPanelNormal = new javax.swing.JPanel();
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane1.setViewportView(jTextArea1);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("FuncionesNomina - WabiSabiContabilidad");
 
         jPanel1.setBackground(new java.awt.Color(171, 210, 248));
+        jPanel1.setToolTipText("MenúNomina - WabiSabiContabilidad");
 
+        jPanel2.setToolTipText("MenúNomina- WabiSabiContabilidad");
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 2, 20)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/icoNomi/INomina2.png"))); // NOI18N
-        jLabel1.setText("Nomina");
-        jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
-        jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel1.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, -1, -1));
+        jLabelImaNo.setFont(new java.awt.Font("Times New Roman", 2, 20)); // NOI18N
+        jLabelImaNo.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelImaNo.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabelImaNo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/icoNomi/INomina2.png"))); // NOI18N
+        jLabelImaNo.setText("Nomina");
+        jLabelImaNo.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        jLabelImaNo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jLabelImaNo.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
+        jPanel2.add(jLabelImaNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, -1, -1));
 
-        jButtonEditarD2.setBackground(new java.awt.Color(102, 153, 255));
-        jButtonEditarD2.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
-        jButtonEditarD2.setForeground(new java.awt.Color(255, 255, 255));
-        jButtonEditarD2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/verNo.png"))); // NOI18N
-        jButtonEditarD2.setText("Ver Nomina");
-        jButtonEditarD2.setActionCommand("Editar Datos   ");
-        jButtonEditarD2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jButtonEditarD2.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        jButtonEditarD2.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/verNo2.png"))); // NOI18N
-        jPanel2.add(jButtonEditarD2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 450, 250, 60));
+        jButtonCerrarSe.setBackground(new java.awt.Color(0, 204, 255));
+        jButtonCerrarSe.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButtonCerrarSe.setForeground(new java.awt.Color(255, 255, 255));
+        jButtonCerrarSe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/cerrarSesion.png"))); // NOI18N
+        jButtonCerrarSe.setText("   Cerra Sesión");
+        jButtonCerrarSe.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButtonCerrarSe.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButtonCerrarSe.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/cerrarSesion2.png"))); // NOI18N
+        jButtonCerrarSe.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonCerrarSeActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButtonCerrarSe, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 640, 260, 50));
 
-        jButtonEditarD3.setBackground(new java.awt.Color(102, 153, 255));
-        jButtonEditarD3.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
-        jButtonEditarD3.setForeground(new java.awt.Color(255, 255, 255));
-        jButtonEditarD3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/agregar.png"))); // NOI18N
-        jButtonEditarD3.setText("Crear Contrato");
-        jButtonEditarD3.setActionCommand("Editar Datos   ");
-        jButtonEditarD3.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jButtonEditarD3.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        jButtonEditarD3.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/agregar2.png"))); // NOI18N
-        jPanel2.add(jButtonEditarD3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 250, 60));
+        jButtonRegresar.setBackground(new java.awt.Color(0, 204, 255));
+        jButtonRegresar.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
+        jButtonRegresar.setForeground(new java.awt.Color(255, 255, 255));
+        jButtonRegresar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/atras.png"))); // NOI18N
+        jButtonRegresar.setText("Regresar");
+        jButtonRegresar.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButtonRegresar.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButtonRegresar.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/atras2.png"))); // NOI18N
+        jButtonRegresar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonRegresarActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButtonRegresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 580, 260, 50));
 
-        jButtonEditarD4.setBackground(new java.awt.Color(102, 153, 255));
-        jButtonEditarD4.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
-        jButtonEditarD4.setForeground(new java.awt.Color(255, 255, 255));
-        jButtonEditarD4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/eliminar.png"))); // NOI18N
-        jButtonEditarD4.setText("Eliminar Contrato");
-        jButtonEditarD4.setActionCommand("Editar Datos   ");
-        jButtonEditarD4.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jButtonEditarD4.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        jButtonEditarD4.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/agregar2.png"))); // NOI18N
-        jPanel2.add(jButtonEditarD4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 260, 60));
+        jComboBoxContrato.setBackground(new java.awt.Color(102, 153, 255));
+        jComboBoxContrato.setFont(new java.awt.Font("Times New Roman", 2, 20)); // NOI18N
+        jComboBoxContrato.setForeground(new java.awt.Color(255, 255, 255));
+        jComboBoxContrato.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "CONTRATO", "Crear Contrato", "Eliminar Contrato", "Buscar Contrato" }));
+        jComboBoxContrato.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBoxContratoActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jComboBoxContrato, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 250, 90));
 
-        jButtonEditarD5.setBackground(new java.awt.Color(102, 153, 255));
-        jButtonEditarD5.setFont(new java.awt.Font("Times New Roman", 1, 20)); // NOI18N
-        jButtonEditarD5.setForeground(new java.awt.Color(255, 255, 255));
-        jButtonEditarD5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/sacarNo.png"))); // NOI18N
-        jButtonEditarD5.setText("Hacer Nomina");
-        jButtonEditarD5.setActionCommand("Editar Datos   ");
-        jButtonEditarD5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jButtonEditarD5.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
-        jButtonEditarD5.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/sacarNo2.png"))); // NOI18N
-        jPanel2.add(jButtonEditarD5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 380, 250, 60));
+        jComboBoxNominaF.setBackground(new java.awt.Color(102, 153, 255));
+        jComboBoxNominaF.setFont(new java.awt.Font("Times New Roman", 2, 20)); // NOI18N
+        jComboBoxNominaF.setForeground(new java.awt.Color(255, 255, 255));
+        jComboBoxNominaF.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "NOMINA", "Hacer Nomina", "Ver Nomina" }));
+        jComboBoxNominaF.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                jComboBoxNominaFItemStateChanged(evt);
+            }
+        });
+        jPanel2.add(jComboBoxNominaF, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 420, 250, 80));
 
         jLabelfondomain.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/fondo.jpg"))); // NOI18N
-        jPanel2.add(jLabelfondomain, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 290, 1020));
+        jPanel2.add(jLabelfondomain, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 290, 820));
+
+        jPanelCrearC.setBackground(new java.awt.Color(102, 153, 255));
+        jPanelCrearC.setToolTipText("CrearContrato - WabiSabiContabilidad");
+        jPanelCrearC.setName("jPanelCrearC"); // NOI18N
+        jPanelCrearC.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabelCrear.setBackground(new java.awt.Color(255, 255, 51));
+        jLabelCrear.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
+        jLabelCrear.setText("CrearContrato");
+        jPanelCrearC.add(jLabelCrear, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, 290, 70));
+
+        rSPanelsSlider1.add(jPanelCrearC, "card2");
+
+        jPanelEliminarC.setBackground(new java.awt.Color(102, 153, 255));
+        jPanelEliminarC.setToolTipText("EliminarNomina -   WabiSabiContabilidad       ");
+        jPanelEliminarC.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
+        jPanelEliminarC.setName("jPanelEliminarC"); // NOI18N
+        jPanelEliminarC.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabeleli.setFont(new java.awt.Font("Times New Roman", 3, 14)); // NOI18N
+        jLabeleli.setText(">> Eliminar Contrato");
+        jPanelEliminarC.add(jLabeleli, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 0, 140, 50));
+
+        jTextFieldIden.setBackground(new java.awt.Color(204, 255, 255));
+        jTextFieldIden.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jTextFieldIden.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldIdenActionPerformed(evt);
+            }
+        });
+        jPanelEliminarC.add(jTextFieldIden, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 270, 50));
+
+        jLabelTextEli.setBackground(new java.awt.Color(0, 153, 255));
+        jLabelTextEli.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabelTextEli.setText("Escriba Identificación del trabajador a Eliminar:");
+        jPanelEliminarC.add(jLabelTextEli, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
+
+        jButtonBuscEli.setBackground(new java.awt.Color(0, 153, 255));
+        jButtonBuscEli.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/buscar_opt.png"))); // NOI18N
+        jButtonBuscEli.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/buscar_opt2.png"))); // NOI18N
+        jButtonBuscEli.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButtonBuscEliMouseClicked(evt);
+            }
+        });
+        jButtonBuscEli.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonBuscEliActionPerformed(evt);
+            }
+        });
+        jPanelEliminarC.add(jButtonBuscEli, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 120, 70, 50));
+
+        jTextAreaEli.setBackground(new java.awt.Color(204, 255, 255));
+        jTextAreaEli.setColumns(20);
+        jTextAreaEli.setRows(5);
+        jScrollPane2.setViewportView(jTextAreaEli);
+
+        jPanelEliminarC.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 270, 460, 220));
+
+        rSPanelsSlider1.add(jPanelEliminarC, "card3");
+
+        jPanelHacerNO.setBackground(new java.awt.Color(102, 153, 255));
+        jPanelHacerNO.setToolTipText("HacerNomina - WabiSabiNomina");
+        jPanelHacerNO.setName("jPanelHacerNO"); // NOI18N
+        jPanelHacerNO.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabelHacer.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
+        jLabelHacer.setText("hacer nonima");
+        jPanelHacerNO.add(jLabelHacer, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, 390, 78));
+
+        rSPanelsSlider1.add(jPanelHacerNO, "card4");
+
+        jPanelBuscarC.setBackground(new java.awt.Color(102, 153, 255));
+        jPanelBuscarC.setName("jPanelBuscarC"); // NOI18N
+        jPanelBuscarC.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabelBuscarC.setBackground(new java.awt.Color(51, 153, 255));
+        jLabelBuscarC.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabelBuscarC.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelBuscarC.setText("Buscar Contrato");
+        jPanelBuscarC.add(jLabelBuscarC, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 120, -1, -1));
+
+        rSPanelsSlider1.add(jPanelBuscarC, "card6");
+
+        jPanelVerNO.setBackground(new java.awt.Color(102, 153, 255));
+        jPanelVerNO.setToolTipText("VerNomina - WabiSabiContabilidad");
+        jPanelVerNO.setName("jPanelVerNO"); // NOI18N
+        jPanelVerNO.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabelVerNo.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
+        jLabelVerNo.setText("Ver Nomina");
+        jPanelVerNO.add(jLabelVerNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 390, 78));
+
+        rSPanelsSlider1.add(jPanelVerNO, "card5");
+
+        jPanelNormal.setBackground(new java.awt.Color(102, 153, 255));
+        jPanelNormal.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        rSPanelsSlider1.add(jPanelNormal, "card7");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -106,11 +286,16 @@ public class JNomina extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 1711, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(rSPanelsSlider1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(rSPanelsSlider1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -126,6 +311,141 @@ public class JNomina extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButtonRegresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonRegresarActionPerformed
+     
+       MenuPrincipal a = new MenuPrincipal() ;
+       a.setVisible(true);
+       this.setVisible(false);
+
+    }//GEN-LAST:event_jButtonRegresarActionPerformed
+
+    private void jButtonCerrarSeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCerrarSeActionPerformed
+ interfaz a = new interfaz() ;
+       a.setVisible(true);
+       this.setVisible(false);
+    }//GEN-LAST:event_jButtonCerrarSeActionPerformed
+
+    private void jComboBoxContratoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBoxContratoActionPerformed
+            int op = jComboBoxContrato.getSelectedIndex();
+            switch (op){
+                case 0:
+                // rSPanelsSlider1.setPanelSlider(20, jPanelNormal, RSPanelsSlider.DIRECT.RIGHT);
+           //  JOptionPane.showMessageDialog(this, "Seleccione una opción en la barra izquierda.");
+                break;
+                case 1:
+//                    if (!this.jButtonCrearC.isSelected()){
+//            this.jButtonCrearC.setSelected(true);
+//            this.jButtonEliminarC.setSelected(false);
+//            this.jButtonHacerNomina.setSelected(false);
+//            this.jButtonVerNomina.setSelected(false);
+//            this.jButtonRegresar.setSelected(false);
+//            this.jButtonCerrarSe.setSelected(false);
+//            
+            rSPanelsSlider1.setPanelSlider(20, jPanelCrearC, RSPanelsSlider.DIRECT.RIGHT);
+                   // }    
+            break;
+            
+            
+            case 2:
+//            if (!this.jButtonEliminarC.isSelected()){
+//            
+//            this.jButtonEliminarC.setSelected(true);
+//            this.jButtonCrearC.setSelected(false);
+//            this.jButtonHacerNomina.setSelected(false);
+//            this.jButtonVerNomina.setSelected(false);
+//            this.jButtonRegresar.setSelected(false);
+//            this.jButtonCerrarSe.setSelected(false);
+            
+            rSPanelsSlider1.setPanelSlider(20, jPanelEliminarC, RSPanelsSlider.DIRECT.RIGHT);
+       // }
+            break;
+            
+            case 3:
+                            rSPanelsSlider1.setPanelSlider(20, jPanelBuscarC, RSPanelsSlider.DIRECT.RIGHT);
+break;
+        }
+                    
+            
+    }//GEN-LAST:event_jComboBoxContratoActionPerformed
+
+    private void jComboBoxNominaFItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jComboBoxNominaFItemStateChanged
+
+        int op = jComboBoxNominaF.getSelectedIndex();
+        
+        switch (op){
+            case 1:
+                   rSPanelsSlider1.setPanelSlider(20, jPanelHacerNO, RSPanelsSlider.DIRECT.RIGHT);
+
+                break;
+                
+            case 2:
+                    rSPanelsSlider1.setPanelSlider(20, jPanelVerNO, RSPanelsSlider.DIRECT.RIGHT);
+
+        }
+        
+    }//GEN-LAST:event_jComboBoxNominaFItemStateChanged
+
+    private void jButtonBuscEliMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonBuscEliMouseClicked
+       
+       //String pass = new String (jPasswordFieldContra.getPassword());
+       String id = jTextFieldIden.getText();
+          try{
+              for (Iterator <trabajador> tra = empresa.getTras().iterator(); tra.hasNext();) { //trabajador x : empresa.getTras() // for( int i = 0; i < arr.size(); i++ )
+                         //   System.out.println(" ti trab  "+ tra.+ "espacio:  "+ empresa.getContratos().size());
+                            trabajador tra1 = tra.next();
+                            if (tra1.getTi().equals(id)) {
+                               // boolean auxq = empresa.eliminarTrab(x);
+                                for (Iterator <contrato> con  = empresa.getContratos().iterator(); con.hasNext();){
+                                   contrato con1 = con.next();
+                                    if (con1.getId().equals(id)){
+                                        
+                                        jTextAreaEli.append("Información del Trabajador:");
+                                        jTextAreaEli.append("Nombre Completo:  " + tra1.getNomb() + "  "+ tra1.getApe() );
+                                        jTextAreaEli.append("Cargo:  " + tra1.getCargo() );
+                                        jTextAreaEli.append("Salario: " + tra1.getSalario());
+                                        jTextAreaEli.append("fecha de inicio de contrato:" + tra1.getSucontra().getFechaI().getDia() +"/"+ tra1.getSucontra().getFechaI().getMes() +"/"+ tra1.getSucontra().getFechaI().getAño() );
+
+                                        
+                                        //System.out.println("id contra: " +x1.getId());
+                                 //boolean au2 =    empresa.eliminarContra(x1);
+                                tra.remove();
+                                con.remove();
+                               //  System.out.println("trab  "+ auxq + "contra   " + au2);
+                                 PrintStream Out3 = new PrintStream(archiCont);
+                                PrintStream Out2 = new PrintStream(archiTrab);
+                                new WabiSabiNomina().modifContras(empresa, Out3);
+                                new WabiSabiNomina().escribirModifTrab(empresa, Out2);
+//                                System.out.println("holaeliminar");
+//                                cc="";
+              JOptionPane.showMessageDialog(this, "Eliminado Exitosamente.");
+
+                                    }
+                                }
+                            } else {
+             JOptionPane.showMessageDialog(this, "Trabajador no encontrado");
+                            }
+
+                        }
+
+//                        System.out.println(" 1. Para volver a eliminar contrato : \n 2. Para volver al menu: \n");
+//                        eli = en2.nextInt();
+          } catch (InputMismatchException ex) {
+                            System.out.println("Error: " + ex.getMessage());
+                         //   eli = 2;
+                        } catch (FileNotFoundException ex) {
+            Logger.getLogger(JNomina.class.getName()).log(Level.SEVERE, null, ex);
+        }
+         
+    }//GEN-LAST:event_jButtonBuscEliMouseClicked
+
+    private void jButtonBuscEliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBuscEliActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonBuscEliActionPerformed
+
+    private void jTextFieldIdenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldIdenActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldIdenActionPerformed
 
     /**
      * @param args the command line arguments
@@ -163,13 +483,32 @@ public class JNomina extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonEditarD2;
-    private javax.swing.JButton jButtonEditarD3;
-    private javax.swing.JButton jButtonEditarD4;
-    private javax.swing.JButton jButtonEditarD5;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton jButtonBuscEli;
+    private javax.swing.JButton jButtonCerrarSe;
+    private javax.swing.JButton jButtonRegresar;
+    private javax.swing.JComboBox<String> jComboBoxContrato;
+    private javax.swing.JComboBox<String> jComboBoxNominaF;
+    private javax.swing.JLabel jLabelBuscarC;
+    private javax.swing.JLabel jLabelCrear;
+    private javax.swing.JLabel jLabelHacer;
+    private javax.swing.JLabel jLabelImaNo;
+    private javax.swing.JLabel jLabelTextEli;
+    private javax.swing.JLabel jLabelVerNo;
+    private javax.swing.JLabel jLabeleli;
     private javax.swing.JLabel jLabelfondomain;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanelBuscarC;
+    private javax.swing.JPanel jPanelCrearC;
+    private javax.swing.JPanel jPanelEliminarC;
+    private javax.swing.JPanel jPanelHacerNO;
+    private javax.swing.JPanel jPanelNormal;
+    private javax.swing.JPanel jPanelVerNO;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextAreaEli;
+    private javax.swing.JTextField jTextFieldIden;
+    private rojerusan.RSPanelsSlider rSPanelsSlider1;
     // End of variables declaration//GEN-END:variables
 }

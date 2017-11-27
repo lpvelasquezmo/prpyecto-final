@@ -551,7 +551,7 @@ public class WabiSabiNomina {
                     System.out.println("Usuario:");
                     empresa.setUsuario(en.nextLine());
                     Out1.print(empresa.getUsuario() + "\n");
-                    System.out.println("contraseña:");;
+                    System.out.println("contraseña:");
                     empresa.setContraseña(en.nextLine() + "\n");
                     Out1.print(empresa.getContraseña());
                     System.out.println("Nombre:\n");
@@ -603,6 +603,7 @@ public class WabiSabiNomina {
                     empresa.setUsuario(usuario);
                     String Contraseña = ef.nextLine();
                     empresa.setContraseña(Contraseña);
+                    System.out.println("contra " + Contraseña);
                     String name = ef.nextLine();
                     empresa.setNombre(name);
                     String Rlegal = ef.nextLine();
@@ -668,18 +669,29 @@ public class WabiSabiNomina {
                 double salario = Double.parseDouble(st.nextToken().trim());
                 traba.setSalario(salario);
                 String idContra = (st.nextToken());
-                System.out.println(" id contra:  " + idContra);
-                contrato suco = new contrato();
+               // System.out.println(" id contra: " + idContra);
+               //contrato suco = new contrato();
 
-                for (contrato x2 : empresa.getContratos()) {
+               for (contrato x2 : empresa.getContratos()) {
+               //for (int i = 0; i < empresa.getContratos().size() ; i++){
+                  //  System.out.println("id contraContra : "+ x2.getId() +" tamaño " + empresa.getContratos().size());
+                   //System.out.println(" id: "+ empresa.getContratos().get(i).getId()+ " iterador " + i );
                     if (x2.getId().equals(idContra)) {
-                        suco = x2;
-                        traba.setSucontra(suco);
-                        System.out.println(" Contrato ok");
-                    } else {
-                        System.out.println("Contrato No encontrado");
+                        contrato suco = x2;
+                        //traba.setSucontra(suco);
+                         traba.setSucontra(suco);  
+                                      //System.out.println("contra   " + traba.getSucontra().getId() );
+                                         
+
+                        //System.out.println(" Contrato ok");
                     }
+                      
+//                    } else {
+//                        System.out.println("Contrato No encontrado");
+//                    }
                 }
+                              //  System.out.println(" id contra : " + traba.getSucontra().getId() + "horas:   " +  traba.getSucontra().getTotalHoras () + "nombre: " + traba.getNomb());
+
 //                int idTurno = Integer.parseInt(st.nextToken().trim());
 //                Turno sutur1 = new Turno();
 //                for (Turno x1 : empresa.getTurnos()) {
@@ -692,7 +704,11 @@ public class WabiSabiNomina {
 //                }
 
                 empresa.addTrab(traba);
-            }
+                }
+//            for (int i =0; i < empresa.getTras().size(); i ++){
+//            System.out.println("tamaño: "+ empresa.getTras().size() + empresa.getTras().get(i).getNomb());
+//            
+//            }
         } catch (FileNotFoundException en) {
             System.out.println("Error: " + en.getMessage());
         }
@@ -703,13 +719,14 @@ public class WabiSabiNomina {
         //   boolean rf = false;
         try {
             Scanner co = new Scanner(new FileInputStream(archiCont));
-            contrato Lcontra = new contrato();
+           
             while (co.hasNextLine()) {
+                 contrato Lcontra = new contrato();
                 String line = co.nextLine();
                 StringTokenizer st = new StringTokenizer(line, ";");
                 String idC = (st.nextToken());
                 Lcontra.setId(idC);
-                System.out.println("id %%% :" + idC);
+               //  System.out.println("id %%% :" + idC);
                 String Tipo = st.nextToken();
                 Lcontra.setTipo(Tipo);
                 String empleador = st.nextToken().trim();
@@ -725,12 +742,19 @@ public class WabiSabiNomina {
                 int hof = Integer.parseInt(st.nextToken().trim());
                 Lcontra.setHoraF(hof);
                 int TotalHoras = Integer.parseInt(st.nextToken().trim());
+                //System.out.println(" horas :  " + TotalHoras);
                 Lcontra.setTotalHoras(TotalHoras);
                 String lugar = st.nextToken().trim();
                 Lcontra.setLugCont(lugar);
+                          
                 empresa.addContra(Lcontra);
 
+
             }
+//            for (int i =0; i < empresa.getContratos().size(); i ++){
+//            System.out.println("tamaño: "+ empresa.getContratos().size() + empresa.getContratos().get(i).getId());
+//            
+//            }
         } catch (FileNotFoundException en) {
             System.out.println("Error" + en.getMessage());
         }
@@ -854,13 +878,23 @@ public class WabiSabiNomina {
                 System.out.println("Nomina para el Trabajador:  " + trab.getNomb() + "  "+ trab.getApe());
             Scanner se = new Scanner(System.in);
 
-            System.out.println("Dias trabajados:\n");
-            int dias = se.nextInt();
+            
             System.out.println("Prestamos al trabajador\n");
             double prestamos = se.nextDouble();
+                System.out.println("Descontar dia\n");
+                int cantDia = se.nextInt();
+                System.out.println("Descontar horas \n");
+                int cantHora = se.nextInt();
+                System.out.println("Horas Extra: \n");
+                int horasEx = se.nextInt();
             System.out.println("Dominicales trabajados:\n");
             int domi = se.nextInt();
-            FunNom nomina = new FunNom(trab, dias, prestamos);
+            
+                System.out.println("horas:   " + trab.getSucontra().getTotalHoras ());
+            FunNom nomina = new FunNom(trab,  prestamos);
+            nomina.DesDia(cantDia);
+            nomina.DesHora(cantHora);
+            nomina.horasExtraResta(horasEx);
             nomina.nomina(trab.isAux(), domi, nomina.getSalario15());
 
             System.out.println("Dominicales" + nomina.getDominicales());
@@ -890,7 +924,7 @@ public class WabiSabiNomina {
             tur.println("                          ;" + "PORTAL MARINO PESCADERIA" + ";" + "   ");
             tur.println("                          ;" + empresa.getNit() + ";" + "   ");
             tur.println("                          ;" + "COMPROBATE DE PAGO DE SALARIO;" + "   ");
-            tur.println("EMPLEADO                  ;" + ";" + trab.getNomb() + trab.getApe() + ";");
+            tur.println("EMPLEADO                  ;" + ";" + trab.getNomb() + "  "+ trab.getApe() + ";");
             tur.println("C.C.                      ;" + ";" + trab.getTi() + ";");
             tur.println("CARGO                     ; " + ";" + trab.getCargo());
             tur.println("SALARIO BASICO            ;" + ";" + +trab.getSalario() + ";");
@@ -899,18 +933,22 @@ public class WabiSabiNomina {
             tur.println("CIUDAD                    ;" + ";" + "BOGOTA D.C.");
             tur.println("PAGOS                     ;");
             tur.println("Salario                   ;" + ";" + "$" + nomina.getSalario15() + ";");
-            tur.println("Dominicales               ;" + ";" + "$" + nomina.getDominicales() + ";");
+            // int extra =(int)(nomina.getExtraREST());
+            tur.println("Horas Extra               ;" + ";"+ "$" + (int)(nomina.getExtraREST())+ ";");
+            tur.println("Dominicales               ;" + ";" + "$" + (nomina.getDominicales()) + ";");
             tur.println("Auxilio de transporte     ;" + ";" + "$" + nomina.getAuxTrans() + ";");
-            tur.println("TOTAL PAGOS               ;" + ";" + " ;" + "$" + nomina.getTdevengado() + ";");
+            tur.println("TOTAL PAGOS               ;" + ";" + " ;" + "$" + (int ) (nomina.getTdevengado()) + ";");
             tur.println(" ;" + " ;" + " ;");
             tur.println("DEDUCCIONES               ;");
             tur.println("Descto seguridad salud    ;" + " ;" + "$" + nomina.getSaludTrab() + ";");
-            tur.println("Descto seguridad pension  ;" + " ;" + "$" + nomina.getPensTrab());
-            tur.println("Vale por Almuerzos        ;" + ";" + "$" + nomina.getValeAlmuerzos());
-            tur.println("Prestamos                 ;" + ";" + "$" + nomina.getPrestamos());
-            tur.println("TOTAL DEDUCCIONES         ;" + ";" + " ;" + "$" + nomina.getDeducciones());
+            tur.println("Descto seguridad pension  ;" + " ;" + "$" + nomina.getPensTrab()+ ";");
+            tur.println("Descto Dias               ;" + " ;" + "$" + (int) (nomina.getTotalDiaDES())+ ";");
+            tur.println("Descto Horas              ;" + " ;" + "$" + (int)(nomina.getTotalHorDescuento()) + ";");
+            tur.println("Vale por Almuerzos        ;" + ";" + "$" + nomina.getValeAlmuerzos()+ ";");
+            tur.println("Prestamos                 ;" + ";" + "$" + nomina.getPrestamos()+ ";");
+            tur.println("TOTAL DEDUCCIONES         ;" + ";" + " ;" + "$" + (int)(nomina.getDeducciones())+ ";");
             tur.println(";" + " ;" + " ;");
-            tur.println("NETO A PAGAR              ;" + ";" + " ;" + "$ " + nomina.getNetoPago());
+            tur.println("NETO A PAGAR              ;" + ";" + " ;" + "$ " + (int)(nomina.getNetoPago())+ ";");
             tur.println(";" + " ;" + " ;");
             tur.println(";" + " ;" + " ;");
             tur.println("Autorizado por:           ;" + ";" + "Recibe conforme:;");

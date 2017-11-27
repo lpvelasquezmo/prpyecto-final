@@ -8,6 +8,7 @@ package interfaz;
 import java.io.File;
 import java.util.Scanner;
 import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 import wabisabinomina.Empresa;
 import wabisabinomina.WabiSabiNomina;
 
@@ -19,13 +20,22 @@ import wabisabinomina.WabiSabiNomina;
 public class interfaz extends javax.swing.JFrame {
     Scanner de = new Scanner (System.in);
     String usuario ;
+    boolean entro= false;
     String contraseña;
+     File archiEmpr = new File("Empresa/Datos Empresa.txt");
+     
+          Empresa empresa = new Empresa();
+          
     /**
      * Creates new form interfaz
      */
     public interfaz() {
         initComponents();
-        setIconImage(new ImageIcon(getClass().getResource("/interfaz/imagenes/logows1.png")).getImage());       
+                this.setExtendedState(MAXIMIZED_BOTH);
+
+        setIconImage(new ImageIcon(getClass().getResource("/interfaz/imagenes/logows1.png")).getImage());
+        new WabiSabiNomina().iniciar(empresa, archiEmpr, de);
+        System.out.println(" usu  " + empresa.getUsuario()+ " contra  " + empresa.getContraseña());
     }
     
      
@@ -127,7 +137,7 @@ public class interfaz extends javax.swing.JFrame {
         org.jdesktop.beansbinding.Binding binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, this, org.jdesktop.beansbinding.ELProperty.create("jdf"), jLabelFondo, org.jdesktop.beansbinding.BeanProperty.create("text"));
         bindingGroup.addBinding(binding);
 
-        getContentPane().add(jLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-110, -60, 1090, 860));
+        getContentPane().add(jLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-110, -60, 1200, 860));
 
         bindingGroup.bind();
 
@@ -141,28 +151,43 @@ public class interfaz extends javax.swing.JFrame {
    
     
     private void jPasswordFieldContraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordFieldContraActionPerformed
-        // TODO add your handling code here:
+//              this.contraseña = jPasswordFieldContra.getText();
+//              System.out.println(" contra In-: " + this.contraseña);
+
     }//GEN-LAST:event_jPasswordFieldContraActionPerformed
 
     private void jButtonIniciarSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonIniciarSActionPerformed
-        // TODO add your handling code here:
+       
+       
     }//GEN-LAST:event_jButtonIniciarSActionPerformed
 
     private void jButtonIniciarSMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonIniciarSMouseClicked
-         File archiEmpr = new File("Empresa/Datos Empresa.txt");
-          Empresa empresa = new Empresa();
-          
-         new WabiSabiNomina().iniciar(empresa, archiEmpr, de);
-        String str = jLabelUsu.getText();
-        if( true ) {
+        
+        String pass = new String (jPasswordFieldContra.getPassword());
+        if( jTextFieldUsu.getText().equals(empresa.getUsuario()) &&  pass.equals(empresa.getContraseña())) {
+                      
+                entro= true;
+            
         //   panel newPanel = new panel(usuario, contra);
           //  panel.setVisible(true);
-            this.setVisible(false);
+           // this.setVisible(false);
+        }else{
+              JOptionPane.showMessageDialog(this, "Usuario / Contraseña Incorecta. Intente Nuevamente.");
+              entro = false;
         }
+        
+        if (entro ==true){
+       MenuPrincipal a = new MenuPrincipal() ;
+       a.setVisible(true);
+       this.setVisible(false);
+       }else {
+           this.setVisible(true);
+       }
     }//GEN-LAST:event_jButtonIniciarSMouseClicked
 
     private void jTextFieldUsuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldUsuActionPerformed
-        // TODO add your handling code here:
+//this.usuario = jTextFieldUsu.getText();
+//        System.out.println(" usua In: " + this.usuario);
     }//GEN-LAST:event_jTextFieldUsuActionPerformed
 
     /**

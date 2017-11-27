@@ -18,7 +18,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
      */
     public MenuPrincipal() {
         initComponents();
-        this.setLocationRelativeTo(this);
+        //this.setLocationRelativeTo(this);
+        this.setExtendedState(MAXIMIZED_BOTH);
                 setIconImage(new ImageIcon(getClass().getResource("/interfaz/imagenes/logows1.png")).getImage());       
 
     }
@@ -130,6 +131,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButtonCerrarS.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jButtonCerrarS.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         jButtonCerrarS.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/cerrarSesion2.png"))); // NOI18N
+        jButtonCerrarS.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonCerrarSActionPerformed(evt);
+            }
+        });
         jPanelMenu.add(jButtonCerrarS, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, 240, 90));
 
         jButtonEditarD.setBackground(new java.awt.Color(0, 51, 153));
@@ -174,7 +180,9 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonNominaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNominaActionPerformed
-        // TODO add your handling code here:
+       JNomina a = new JNomina() ;
+       a.setVisible(true);
+       this.setVisible(false);
     }//GEN-LAST:event_jButtonNominaActionPerformed
 
     private void jButtonContabi1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonContabi1ActionPerformed
@@ -206,6 +214,14 @@ public class MenuPrincipal extends javax.swing.JFrame {
         }
         
     }//GEN-LAST:event_jButtonMenu1ActionPerformed
+
+    private void jButtonCerrarSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCerrarSActionPerformed
+           
+       interfaz a = new interfaz() ;
+       a.setVisible(true);
+       this.setVisible(false);
+
+    }//GEN-LAST:event_jButtonCerrarSActionPerformed
 
     /**
      * @param args the command line arguments

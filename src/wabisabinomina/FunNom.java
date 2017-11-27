@@ -17,10 +17,19 @@ public class FunNom {
     private String Ufecha;//ultima fecha de nomina;
     private double Dominicales;
     private double cesantias;
-    private int diasTrados; //
+    //private int diasTrados;
+    private int diasDescuento; //
+    private double TotalDiaDES;
+    private int horasDescuento;
+    private double TotalHorDescuento;
+    private double ExtraREST;
+    
     private double prima;
     // private double salarioDia;
     private double salario15;
+    private double salarioDia;
+    private double salarioHora;
+    
     private double vacaciones;
     private double interCens;
     private double SegSocTrab;
@@ -40,16 +49,40 @@ public class FunNom {
     private double NetoPago;
     private double auxTrans;
 
-    public FunNom(trabajador trabaja, int diasT, double prestamos) {
+    public FunNom(trabajador trabaja,  double prestamos) {
         this.trabaja = trabaja;
-        this.diasTrados = diasT;
+      //  this.diasTrados = diasT;
         this.prestamos = prestamos;
         this.salario15 = trabaja.getSalario() / 2;
+         this.salarioDia =  this.salario15/ 15;
+         System.out.println("horas: " + trabaja.getSucontra().getTotalHoras() );
+         this.salarioHora = this.salarioDia / trabaja.getSucontra().getTotalHoras();
         int dia = 0, mes = 0, annio = 0;
         FechaActual fecha = new FechaActual();
         this.fePago = fecha.Fecha();//.Fecha(int dia, int mes, int annio);
     }
 
+    public double DesDia (int cantidad){
+        
+       this.TotalDiaDES = this.salarioDia * cantidad;
+       System.out.println("Dia DES :" + this.TotalDiaDES );
+        
+        return this.TotalDiaDES;
+    }
+    
+    public double DesHora (int cantidad){
+        this.TotalHorDescuento = this.salarioHora * cantidad;
+        
+        System.out.println("des Horas: " + this.TotalHorDescuento);
+        return this.TotalHorDescuento;
+        
+    }
+    
+    public double horasExtraResta (int cantidad ){
+        this.ExtraREST = this.salarioHora * cantidad;
+        System.out.println(" extraRes: "+ this.ExtraREST);
+        return this.ExtraREST;
+    }
    
 
     public void nomina(boolean auxTra, int Domi, double salario15) {
@@ -74,12 +107,71 @@ public class FunNom {
             this.auxTrans = 0;
         }
         this.Dominicales = (salario15 /15)*Domi;
-        double auxExtra = this.HoExtraDiur + this.HoExtraNoct + this.HoNoct + this.HoDomiFest + this.HExtraDOFEDI + this.HEctraDOFENO; 
-        this.Deducciones = -this.prestamos - this.valeAlmuerzos - this.PensTrab - this.SegSocTrab - this.SaludTrab;
-        this.Tdevengado = salario15 + auxExtra + this.auxTrans + this.Dominicales;
-        this.NetoPago = this.Tdevengado - this.Deducciones;
+        
+        //double auxExtra = this.HoExtraDiur + this.HoExtraNoct + this.HoNoct + this.HoDomiFest + this.HExtraDOFEDI + this.HEctraDOFENO; 
+        this.Deducciones = -this.prestamos - this.valeAlmuerzos - this.PensTrab  - this.SaludTrab - this.TotalHorDescuento - this.TotalDiaDES;
+        this.Tdevengado = salario15 + this.ExtraREST + this.auxTrans + this.Dominicales;
+        this.NetoPago = this.Tdevengado + this.Deducciones;
 
     }
+
+    public int getDiasDescuento() {
+        return diasDescuento;
+    }
+
+    public void setDiasDescuento(int diasDescuento) {
+        this.diasDescuento = diasDescuento;
+    }
+
+    public double getTotalDiaDES() {
+        return TotalDiaDES;
+    }
+
+    public void setTotalDiaDES(double TotalDiaDES) {
+        this.TotalDiaDES = TotalDiaDES;
+    }
+
+    public int getHorasDescuento() {
+        return horasDescuento;
+    }
+
+    public void setHorasDescuento(int horasDescuento) {
+        this.horasDescuento = horasDescuento;
+    }
+
+    public double getTotalHorDescuento() {
+        return TotalHorDescuento;
+    }
+
+    public void setTotalHorDescuento(double TotalHorDescuento) {
+        this.TotalHorDescuento = TotalHorDescuento;
+    }
+
+    public double getExtraREST() {
+        return ExtraREST;
+    }
+
+    public void setExtraREST(double ExtraREST) {
+        this.ExtraREST = ExtraREST;
+    }
+
+    public double getSalarioDia() {
+        return salarioDia;
+    }
+
+    public void setSalarioDia(double salarioDia) {
+        this.salarioDia = salarioDia;
+    }
+
+    public double getSalarioHora() {
+        return salarioHora;
+    }
+
+    public void setSalarioHora(double salarioHora) {
+        this.salarioHora = salarioHora;
+    }
+    
+    
 
     public trabajador getTrabaja() {
         return trabaja;
@@ -288,13 +380,7 @@ public class FunNom {
         this.Ufecha = Ufecha;
     }
 
-    public int getDiasTrados() {
-        return diasTrados;
-    }
-
-    public void setDiasTrados(int diasTrados) {
-        this.diasTrados = diasTrados;
-    }
+   
 
     public double getSalario15() {
         return salario15;
