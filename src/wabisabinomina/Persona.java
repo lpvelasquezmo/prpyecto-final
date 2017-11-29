@@ -18,13 +18,13 @@ public abstract class Persona {
   private int edad;
   private String LTi;
   private String dire;
-  private double tel;
+  private String tel;
   
   public Persona (){
       
   }
 
-    public Persona(int dia, int mes, int anio, String nomb, String ape, String ti, String LTi, String dire, double tel) {
+    public Persona(int dia, int mes, int anio, String nomb, String ape, String ti, String LTi, String dire, String tel) {
         this.nomb = nomb;
         int mesactual = 0, diaactual = 0,  anoactual = 0;
         this.Fnacimi = new fecha (dia,mes,anio);
@@ -346,13 +346,15 @@ public abstract class Persona {
         this.dire = dire;
     }
 
-    public double getTel() {
+    public String getTel() {
         return tel;
     }
 
-    public void setTel(double tel) {
+    public void setTel(String tel) {
         this.tel = tel;
     }
+
+   
  
   
   

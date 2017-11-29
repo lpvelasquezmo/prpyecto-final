@@ -1,0 +1,268 @@
+pasivo,1,Obligaciones financieras,05,Bancos nacionales,05,Sobregiros
+pasivo,1,Obligaciones financieras,05,Bancos nacionales,10,Pagares
+pasivo,1,Obligaciones financieras,05,Bancos nacionales,15,Cartas de credito
+pasivo,1,Obligaciones financieras,05,Bancos nacionales,20,Aceptaciones bancarias
+pasivo,1,Obligaciones financieras,10,Bancos del exterior,05,Sobregiros
+pasivo,1,Obligaciones financieras,10,Bancos del exterior,10,Pagares
+pasivo,1,Obligaciones financieras,10,Bancos del exterior,15,Cartas de credito
+pasivo,1,Obligaciones financieras,10,Bancos del exterior,20,Aceptaciones bancarias
+pasivo,1,Obligaciones financieras,15,Corporaciones financieras,05,Pagares
+pasivo,1,Obligaciones financieras,15,Corporaciones financieras,10,Aceptaciones financieras
+pasivo,1,Obligaciones financieras,15,Corporaciones financieras,15,Cartas de credito
+pasivo,1,Obligaciones financieras,15,Corporaciones financieras,20,Contratos de arrendamiento financiero (leasing)
+pasivo,1,Obligaciones financieras,20,Compañias de financiamiento comercial,05,Pagares
+pasivo,1,Obligaciones financieras,20,Compañias de financiamiento comercial,10,Aceptaciones financieras
+pasivo,1,Obligaciones financieras,20,Compañias de financiamiento comercial,20,Contratos de arrendamiento financiero (leasing)
+pasivo,1,Obligaciones financieras,25,Corporaciones de ahorro y vivienda,05,Sobregiros
+pasivo,1,Obligaciones financieras,25,Corporaciones de ahorro y vivienda,10,Pagares
+pasivo,1,Obligaciones financieras,25,Corporaciones de ahorro y vivienda,15,Hipotecarias
+pasivo,1,Obligaciones financieras,30,Entidades financieras del exterior,00,no
+pasivo,1,Obligaciones financieras,35,Compromisos de recompra de inversiones negociadas,05,Acciones
+pasivo,1,Obligaciones financieras,35,Compromisos de recompra de inversiones negociadas,10,Cuotas o partes de interes social
+pasivo,1,Obligaciones financieras,35,Compromisos de recompra de inversiones negociadas,15,Bonos
+pasivo,1,Obligaciones financieras,35,Compromisos de recompra de inversiones negociadas,20,Cedulas
+pasivo,1,Obligaciones financieras,35,Compromisos de recompra de inversiones negociadas,25,Certificados
+pasivo,1,Obligaciones financieras,35,Compromisos de recompra de inversiones negociadas,30,Papeles comerciales
+pasivo,1,Obligaciones financieras,35,Compromisos de recompra de inversiones negociadas,35,Titulos
+pasivo,1,Obligaciones financieras,35,Compromisos de recompra de inversiones negociadas,40,Aceptaciones bancarias o financieras
+pasivo,1,Obligaciones financieras,35,Compromisos de recompra de inversiones negociadas,95,Otros
+pasivo,1,Obligaciones financieras,40,Compromisos de recompra de cartera negociada,00,no
+pasivo,1,Obligaciones financieras,45,Obligaciones gubernamentales,05,Gobierno Nacional
+pasivo,1,Obligaciones financieras,45,Obligaciones gubernamentales,10,Entidades oficiales
+pasivo,1,Obligaciones financieras,95,Otras obligaciones,05,Particulares
+pasivo,1,Obligaciones financieras,95,Otras obligaciones,10,Compañias vinculadas
+pasivo,1,Obligaciones financieras,95,Otras obligaciones,15,Casa matriz
+pasivo,1,Obligaciones financieras,95,Otras obligaciones,20,Socios o accionistas
+pasivo,1,Obligaciones financieras,95,Otras obligaciones,25,Fondos y cooperativas
+pasivo,1,Obligaciones financieras,95,Otras obligaciones,30,Directores
+pasivo,1,Obligaciones financieras,95,Otras obligaciones,95,Otras
+pasivo,2,Proveedores,05,Nacionales,00,no
+pasivo,2,Proveedores,10,Del exterior,00,no
+pasivo,2,Proveedores,15,Cuentas corrientes comerciales,00,no
+pasivo,2,Proveedores,20,Casa matriz,00,no
+pasivo,2,Proveedores,25,Compañias vinculadas,00,no
+pasivo,3,Cuentas por pagar,05,Cuentas corrientes comerciales,00,no
+pasivo,3,Cuentas por pagar,10,A casa matriz,00,no
+pasivo,3,Cuentas por pagar,15,A compañias vinculadas,00,no
+pasivo,3,Cuentas por pagar,20,A contratistas,00,no
+pasivo,3,Cuentas por pagar,30,ordenes de compra por utilizar,00,no
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,05,Gastos financieros
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,10,Gastos legales
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,15,Libros, suscripciones, periodicos y revistas
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,20,Comisiones
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,25,Honorarios
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,30,Servicios tecnicos
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,35,Servicios de mantenimiento
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,40,Arrendamientos
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,45,Transportes, fletes y acarreos
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,50,Servicios publicos
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,55,Seguros
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,60,Gastos de viaje
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,65,Gastos de representacion y relaciones publicas
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,70,Servicios aduaneros
+pasivo,3,Cuentas por pagar,35,Costos y gastos por pagar,95,Otros
+pasivo,3,Cuentas por pagar,40,Instalamentos por pagar,00,no
+pasivo,3,Cuentas por pagar,45,Acreedores oficiales,00,no
+pasivo,3,Cuentas por pagar,50,Regalias por pagar,00,no
+pasivo,3,Cuentas por pagar,55,Deudas con accionistas o socios,05,Accionistas
+pasivo,3,Cuentas por pagar,55,Deudas con accionistas o socios,10,Socios
+pasivo,3,Cuentas por pagar,57,Deudas con directores,00,no
+pasivo,3,Cuentas por pagar,60,Dividendos o participaciones por pagar,05,Dividendos
+pasivo,3,Cuentas por pagar,60,Dividendos o participaciones por pagar,10,Participaciones
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,05,Salarios y pagos laborales
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,10,Dividendos y/o participaciones
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,15,Honorarios
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,20,Comisiones
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,25,Servicios
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,30,Arrendamientos
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,35,Rendimientos financieros
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,40,Compras
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,45,Loterias, rifas, apuestas y similares
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,50,Por pagos al exterior
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,55,Por ingresos obtenidos en el exterior
+pasivo,3,Cuentas por pagar,65,etencion en la fuente,60,Enajenacion propiedades planta y equipo, personas naturales
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,65,Por impuesto de timbre
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,70,Otras retenciones y patrimonio
+pasivo,3,Cuentas por pagar,65,Retencion en la fuente,75,Autorretenciones
+pasivo,3,Cuentas por pagar,67,Impuesto a las ventas retenido,00,no
+pasivo,3,Cuentas por pagar,68,Impuesto de industria y comercio retenido,00,no
+pasivo,3,Cuentas por pagar,70,Retenciones y aportes de nomina,05,Aportes a entidades promotoras de salud, EPS
+pasivo,3,Cuentas por pagar,70,Retenciones y aportes de nomina,06,Aportes a administradoras de riesgos profesionales, ARP
+pasivo,3,Cuentas por pagar,70,Retenciones y aportes de nomina,10,Aportes al ICBF, SENA y cajas de compensacion
+pasivo,3,Cuentas por pagar,70,Retenciones y aportes de nomina,15,Aportes al FIC
+pasivo,3,Cuentas por pagar,70,Retenciones y aportes de nomina,25,Embargos judiciales
+pasivo,3,Cuentas por pagar,70,Retenciones y aportes de nomina,30,Libranzas
+pasivo,3,Cuentas por pagar,70,Retenciones y aportes de nomina,35,Sindicatos
+pasivo,3,Cuentas por pagar,70,Retenciones y aportes de nomina,40,Cooperativas
+pasivo,3,Cuentas por pagar,70,Retenciones y aportes de nomina,45,Fondos
+pasivo,3,Cuentas por pagar,70,Retenciones y aportes de nomina,95,Otros
+pasivo,3,Cuentas por pagar,75,Cuotas por devolver,00,no
+pasivo,3,Cuentas por pagar,80,Acreedores varios,05,Depositarios
+pasivo,3,Cuentas por pagar,80,Acreedores varios,10,Comisionistas de bolsas
+pasivo,3,Cuentas por pagar,80,Acreedores varios,15,Sociedad administradoranoFondos de inversion
+pasivo,3,Cuentas por pagar,80,Acreedores varios,20,Reintegros por pagar
+pasivo,3,Cuentas por pagar,80,Acreedores varios,25,Fondo de perseverancia
+pasivo,3,Cuentas por pagar,80,Acreedores varios,30,Fondos de cesantias y/o pensiones
+pasivo,3,Cuentas por pagar,80,Acreedores varios,35,Donaciones asignadas por pagar
+pasivo,3,Cuentas por pagar,80,Acreedores varios,95,Otros
+pasivo,4,Impuestos gravamenes y tasas,04,De renta y complementarios,05,Vigencia fiscal corriente
+pasivo,4,Impuestos gravamenes y tasas,04,De renta y complementarios,10,Vigencias fiscales anteriores
+pasivo,4,Impuestos gravamenes y tasas,08,Impuesto sobre las ventas por pagar,00,no
+pasivo,4,Impuestos gravamenes y tasas,12,De industria y comercio,05,Vigencia fiscal corriente
+pasivo,4,Impuestos gravamenes y tasas,12,De industria y comercio,10,Vigencias fiscales anteriores
+pasivo,4,Impuestos gravamenes y tasas,16,A la propiedad raiz,00,no
+pasivo,4,Impuestos gravamenes y tasas,20,Derechos sobre instrumentos publicos,00,no
+pasivo,4,Impuestos gravamenes y tasas,24,De valorizacion,05,Vigencia fiscal corriente
+pasivo,4,Impuestos gravamenes y tasas,24,De valorizacion,10,Vigencias fiscales anteriores
+pasivo,4,Impuestos gravamenes y tasas,28,De turismo,00,no
+pasivo,4,Impuestos gravamenes y tasas,32,Tasa por utilizacion de puertos,00,no
+pasivo,4,Impuestos gravamenes y tasas,36,De vehiculos,05,Vigencia fiscal corriente
+pasivo,4,Impuestos gravamenes y tasas,36,De vehiculos,10,Vigencias fiscales anteriores
+pasivo,4,Impuestos gravamenes y tasas,40,De espectaculos publicos,00,no
+pasivo,4,Impuestos gravamenes y tasas,44,De hidrocarburos y minas,05,De hidrocarburos
+pasivo,4,Impuestos gravamenes y tasas,44,De hidrocarburos y minas,10,De minas
+pasivo,4,Impuestos gravamenes y tasas,48,Regalias e impuestos a la pequeña y mediana mineria,00,no
+pasivo,4,Impuestos gravamenes y tasas,52,A las exportaciones cafeteras,00,no
+pasivo,4,Impuestos gravamenes y tasas,56,A las importaciones,00,no
+pasivo,4,Impuestos gravamenes y tasas,60,Cuotas de fomento,00,no
+pasivo,4,Impuestos gravamenes y tasas,64,De licores cervezas y cigarrillos,05,De licores
+pasivo,4,Impuestos gravamenes y tasas,64,De licores cervezas y cigarrillos,10,De cervezas
+pasivo,4,Impuestos gravamenes y tasas,64,De licores cervezas y cigarrillos,15,De cigarrillos
+pasivo,4,Impuestos gravamenes y tasas,68,Al sacrificio de ganado,00,no
+pasivo,4,Impuestos gravamenes y tasas,72,Al azar y juegos,00,no
+pasivo,4,Impuestos gravamenes y tasas,76,Gravamenes y regalias por utilizacion del suelo,00,no
+pasivo,4,Impuestos gravamenes y tasas,95,Otros,00,no
+pasivo,5,Obligaciones laborales,05,Salarios por pagar,00,no
+pasivo,5,Obligaciones laborales,10,Cesantias consolidadas,05,Ley laboral anterior
+pasivo,5,Obligaciones laborales,10,Cesantias consolidadas,10,Ley 50,de 1990,y normas posteriores
+pasivo,5,Obligaciones laborales,15,Intereses sobre cesantias,00,no
+pasivo,5,Obligaciones laborales,20,Prima de servicios,00,no
+pasivo,5,Obligaciones laborales,25,Vacaciones consolidadas,00,no
+pasivo,5,Obligaciones laborales,30,Prestaciones extralegales,05,Primas
+pasivo,5,Obligaciones laborales,30,Prestaciones extralegales,10,Auxilios
+pasivo,5,Obligaciones laborales,30,Prestaciones extralegales,15,Dotacion y suministro a trabajadores
+pasivo,5,Obligaciones laborales,30,Prestaciones extralegales,20,Bonificaciones
+pasivo,5,Obligaciones laborales,30,Prestaciones extralegales,25,Seguros
+pasivo,5,Obligaciones laborales,30,Prestaciones extralegales,95,Otras
+pasivo,5,Obligaciones laborales,32,Pensiones por pagar,00,no
+pasivo,5,Obligaciones laborales,35,Cuotas partes pensiones de jubilacion,00,no
+pasivo,5,Obligaciones laborales,40,Indemnizaciones laborales,00,no
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,05,Intereses
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,10,Comisiones
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,15,Honorarios
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,20,Servicios tecnicos
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,25,Transportes, fletes y acarreos
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,30,Gastos de viaje
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,35,Servicios publicos
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,40,Regalias
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,45,Garantias
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,50,Materiales y repuestos
+pasivo,6,Pasivos estimados y provisiones,05,Para costos y gastos,95,Otros
+pasivo,6,Pasivos estimados y provisiones,10,Para obligaciones laborales,05,Cesantias
+pasivo,6,Pasivos estimados y provisiones,10,Para obligaciones laborales,10,Intereses sobre cesantias
+pasivo,6,Pasivos estimados y provisiones,10,Para obligaciones laborales,15,Vacaciones
+pasivo,6,Pasivos estimados y provisiones,10,Para obligaciones laborales,20,Prima de servicios
+pasivo,6,Pasivos estimados y provisiones,10,Para obligaciones laborales,25,Prestaciones extralegales
+pasivo,6,Pasivos estimados y provisiones,10,Para obligaciones laborales,30,Viaticos
+pasivo,6,Pasivos estimados y provisiones,10,Para obligaciones laborales,95,Otras
+pasivo,6,Pasivos estimados y provisiones,15,Para obligaciones fiscales,05,De renta y complementarios
+pasivo,6,Pasivos estimados y provisiones,15,Para obligaciones fiscales,10,De industria y comercio
+pasivo,6,Pasivos estimados y provisiones,15,Para obligaciones fiscales,15,Tasa por utilizacion de puertos
+pasivo,6,Pasivos estimados y provisiones,15,Para obligaciones fiscales,20,De vehiculos
+pasivo,6,Pasivos estimados y provisiones,15,Para obligaciones fiscales,25,De hidrocarburos y minas
+pasivo,6,Pasivos estimados y provisiones,15,Para obligaciones fiscales,95,Otros
+pasivo,6,Pasivos estimados y provisiones,20,Pensiones de jubilacion,05,Calculo actuarial pensiones de jubilacion
+pasivo,6,Pasivos estimados y provisiones,20,Pensiones de jubilacion,10,Pensiones de jubilacion por amortizar (DB)
+pasivo,6,Pasivos estimados y provisiones,25,Para obras de urbanismo,05,Acueducto y alcantarillado
+pasivo,6,Pasivos estimados y provisiones,25,Para obras de urbanismo,10,Energia electrica
+pasivo,6,Pasivos estimados y provisiones,25,Para obras de urbanismo,15,Telefonos
+pasivo,6,Pasivos estimados y provisiones,25,Para obras de urbanismo,95,Otros
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,05,Terrenos
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,10,Construcciones y edificaciones
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,15,Maquinaria y equipo
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,20,Equipo de oficina
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,25,Equipo de computacion y comunicacion
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,30,Equipo mediconocientifico
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,35,Equipo de hoteles y restaurantes
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,40,Flota y equipo de transporte
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,45,Flota y equipo fluvial y/o maritimo
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,50,Flota y equipo aereo
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,55,Flota y equipo ferreo
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,60,Acueductos, plantas y redes
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,65,Armamento de vigilancia
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,70,Envases y empaques
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,75,Plantaciones agricolas y forestales
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,80,Vias de comunicacion
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,85,Pozos artesianos
+pasivo,6,Pasivos estimados y provisiones,30,Para mantenimiento y reparaciones,95,Otros
+pasivo,6,Pasivos estimados y provisiones,35,Para contingencias,05,Multas y sanciones autoridades administrativas
+pasivo,6,Pasivos estimados y provisiones,35,Para contingencias,10,Intereses por multas y sanciones
+pasivo,6,Pasivos estimados y provisiones,35,Para contingencias,15,Reclamos
+pasivo,6,Pasivos estimados y provisiones,35,Para contingencias,20,Laborales
+pasivo,6,Pasivos estimados y provisiones,35,Para contingencias,25,Civiles
+pasivo,6,Pasivos estimados y provisiones,35,Para contingencias,30,Penales
+pasivo,6,Pasivos estimados y provisiones,35,Para contingencias,35,Administrativos
+pasivo,6,Pasivos estimados y provisiones,35,Para contingencias,40,Comerciales
+pasivo,6,Pasivos estimados y provisiones,35,Para contingencias,95,Otras
+pasivo,6,Pasivos estimados y provisiones,40,Para obligaciones de garantias,00,no
+pasivo,6,Pasivos estimados y provisiones,95,Provisiones diversas,05,Para beneficencia
+pasivo,6,Pasivos estimados y provisiones,95,Provisiones diversas,10,Para comunicaciones
+pasivo,6,Pasivos estimados y provisiones,95,Provisiones diversas,15,Para perdida en transporte
+pasivo,6,Pasivos estimados y provisiones,95,Provisiones diversas,20,Para operacion
+pasivo,6,Pasivos estimados y provisiones,95,Provisiones diversas,25,Para proteccion de bienes agotables
+pasivo,6,Pasivos estimados y provisiones,95,Provisiones diversas,30,Para ajustes en redencion de unidades
+pasivo,6,Pasivos estimados y provisiones,95,Provisiones diversas,35,Autoseguro
+pasivo,6,Pasivos estimados y provisiones,95,Provisiones diversas,40,Planes y programas de reforestacion y electrificacion
+pasivo,6,Pasivos estimados y provisiones,95,Provisiones diversas,95,Otras
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,05,Intereses
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,10,Comisiones
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,15,Arrendamientos
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,20,Honorarios
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,25,Servicios tecnicos
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,30,De suscriptores
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,35,Transportes, fletes y acarreos
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,40,Mercancia en transito ya vendida
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,45,Matriculas y pensiones
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,50,Cuotas de administracion
+pasivo,7,Diferidos,05,Ingresos recibidos por anticipado,95,Otros
+pasivo,7,Diferidos,10,Abonos diferidos,05,Reajuste del sistema
+pasivo,7,Diferidos,15,Utilidad diferida en ventas a plazos,00,no
+pasivo,7,Diferidos,20,Credito por correccion monetaria diferida,00,no
+pasivo,7,Diferidos,25,Impuestos diferidos,05,Por depreciacion flexible
+pasivo,7,Diferidos,25,Impuestos diferidos,95,Diversos
+pasivo,7,Diferidos,25,Impuestos diferidos,99,Ajustes por inflacion
+pasivo,8,Otros pasivos,05,Anticipos y avances recibidos,05,De clientes
+pasivo,8,Otros pasivos,05,Anticipos y avances recibidos,10,Sobre contratos
+pasivo,8,Otros pasivos,05,Anticipos y avances recibidos,15,Para obras en proceso
+pasivo,8,Otros pasivos,05,Anticipos y avances recibidos,95,Otros
+pasivo,8,Otros pasivos,10,Depositos recibidos,05,Para futura suscripcion de acciones
+pasivo,8,Otros pasivos,10,Depositos recibidos,10,Para futuro pago de cuotas o derechos sociales
+pasivo,8,Otros pasivos,10,Depositos recibidos,15,Para garantia en la prestacion de servicios
+pasivo,8,Otros pasivos,10,Depositos recibidos,20,Para garantia de contratos
+pasivo,8,Otros pasivos,10,Depositos recibidos,25,De licitaciones
+pasivo,8,Otros pasivos,10,Depositos recibidos,30,De manejo de bienes
+pasivo,8,Otros pasivos,10,Depositos recibidos,35,Fondo de reserva
+pasivo,8,Otros pasivos,10,Depositos recibidos,95,Otros
+pasivo,8,Otros pasivos,15,Ingresos recibidos para terceros,05,Valores recibidos para terceros
+pasivo,8,Otros pasivos,15,Ingresos recibidos para terceros,10,Venta por cuenta de terceros
+pasivo,8,Otros pasivos,20,Cuentas de operacion conjunta,00,no
+pasivo,8,Otros pasivos,25,Retenciones a terceros sobre contratos,05,Cumplimiento obligaciones laborales
+pasivo,8,Otros pasivos,25,Retenciones a terceros sobre contratos,10,Para estabilidad de obra
+pasivo,8,Otros pasivos,25,Retenciones a terceros sobre contratos,15,Garantia cumplimiento de contratos
+pasivo,8,Otros pasivos,30,Embargos judiciales,05,Indemnizaciones
+pasivo,8,Otros pasivos,30,Embargos judiciales,10,Depositos judiciales
+pasivo,8,Otros pasivos,35,Acreedores del sistema,05,Cuotas netas
+pasivo,8,Otros pasivos,35,Acreedores del sistema,10,Grupos en formacion
+pasivo,8,Otros pasivos,40,Cuentas en participacion,00,no
+pasivo,8,Otros pasivos,95,Diversos,05,Prestamos de productos
+pasivo,8,Otros pasivos,95,Diversos,10,Reembolso de costos exploratorios
+pasivo,8,Otros pasivos,95,Diversos,15,Programa de extension agropecuaria
+pasivo,9,Bonos y papeles comerciales,05,Bonos en circulacion,00,no
+pasivo,9,Bonos y papeles comerciales,10,Bonos obligatoriamente convertibles en acciones,00,no
+pasivo,9,Bonos y papeles comerciales,15,Papeles comerciales,00,no
+pasivo,9,Bonos y papeles comerciales,20,Bonos pensionales,05,Valor bonos pensionales
+pasivo,9,Bonos y papeles comerciales,20,Bonos pensionales,10,Bonos pensionales por amortizar (DB)
+pasivo,9,Bonos y papeles comerciales,20,Bonos pensionales,15,Intereses causados sobre bonos pensionales
+pasivo,9,Bonos y papeles comerciales,25,Titulos pensionales,05,Valor titulos pensionales
+pasivo,9,Bonos y papeles comerciales,25,Titulos pensionales,10,Titulos pensionales por amortizar (DB)
+pasivo,9,Bonos y papeles comerciales,25,Titulos pensionales,15,Intereses causados sobre titulos pensionales

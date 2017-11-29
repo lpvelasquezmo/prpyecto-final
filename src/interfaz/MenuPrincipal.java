@@ -5,6 +5,8 @@
  */
 package interfaz;
 
+import static interfaz.ContPrincipal.PanelFondo;
+import java.awt.BorderLayout;
 import javax.swing.ImageIcon;
 
 /**
@@ -146,6 +148,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButtonEditarD.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         jButtonEditarD.setLabel("   Editar Datos");
         jButtonEditarD.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/editar2.png"))); // NOI18N
+        jButtonEditarD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonEditarDActionPerformed(evt);
+            }
+        });
         jPanelMenu.add(jButtonEditarD, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 240, 90));
 
         getContentPane().add(jPanelMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(-280, 0, 280, 700));
@@ -186,6 +193,15 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonNominaActionPerformed
 
     private void jButtonContabi1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonContabi1ActionPerformed
+        this.setVisible(false);
+        ContPrincipal b = new ContPrincipal();
+          b.setSize(700, 500);
+        b.setLocation(0,0);
+        this.add(b, BorderLayout.CENTER);
+        this.revalidate();
+        this.repaint();
+         b.setVisible(true);
+         
         // TODO add your handling code here:
     }//GEN-LAST:event_jButtonContabi1ActionPerformed
 
@@ -222,6 +238,14 @@ public class MenuPrincipal extends javax.swing.JFrame {
        this.setVisible(false);
 
     }//GEN-LAST:event_jButtonCerrarSActionPerformed
+
+    private void jButtonEditarDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEditarDActionPerformed
+
+       CambiarD a = new CambiarD();
+        a.setVisible(true);
+        this.setVisible(false);
+
+    }//GEN-LAST:event_jButtonEditarDActionPerformed
 
     /**
      * @param args the command line arguments

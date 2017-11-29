@@ -1,0 +1,226 @@
+gastos,1,Operacionales de administracion,05,Gastos de personal,03,Salario integral
+gastos,1,Operacionales de administracion,05,Gastos de personal,06,Sueldos
+gastos,1,Operacionales de administracion,05,Gastos de personal,12,Jornales
+gastos,1,Operacionales de administracion,05,Gastos de personal,15,Horas extras y recargos
+gastos,1,Operacionales de administracion,05,Gastos de personal,18,Comisiones
+gastos,1,Operacionales de administracion,05,Gastos de personal,21,Viaticos
+gastos,1,Operacionales de administracion,05,Gastos de personal,24,Incapacidades
+gastos,1,Operacionales de administracion,05,Gastos de personal,27,Auxilio de transporte
+gastos,1,Operacionales de administracion,05,Gastos de personal,30,Cesantias
+gastos,1,Operacionales de administracion,05,Gastos de personal,33,Intereses sobre cesantias
+gastos,1,Operacionales de administracion,05,Gastos de personal,36,Prima de servicios
+gastos,1,Operacionales de administracion,05,Gastos de personal,39,Vacaciones
+gastos,1,Operacionales de administracion,05,Gastos de personal,42,Primas extralegales
+gastos,1,Operacionales de administracion,05,Gastos de personal,45,Auxilios
+gastos,1,Operacionales de administracion,05,Gastos de personal,48,Bonificaciones
+gastos,1,Operacionales de administracion,05,Gastos de personal,51,Dotacion y suministro a trabajadores
+gastos,1,Operacionales de administracion,05,Gastos de personal,54,Seguros
+gastos,1,Operacionales de administracion,05,Gastos de personal,57,Cuotas partes pensiones de jubilacion
+gastos,1,Operacionales de administracion,05,Gastos de personal,58,Amortizacion calculo actuarial pensiones de jubilacion
+gastos,1,Operacionales de administracion,05,Gastos de personal,59,Pensiones de jubilacion
+gastos,1,Operacionales de administracion,05,Gastos de personal,60,Indemnizaciones laborales
+gastos,1,Operacionales de administracion,05,Gastos de personal,61,Amortizacion bonos pensionales
+gastos,1,Operacionales de administracion,05,Gastos de personal,62,Amortizacion titulos pensionales
+gastos,1,Operacionales de administracion,05,Gastos de personal,63,Capacitacion al personal
+gastos,1,Operacionales de administracion,05,Gastos de personal,66,Gastos deportivos y de recreacion
+gastos,1,Operacionales de administracion,05,Gastos de personal,68,Aportes a administradoras de riesgos profesionales, ARP
+gastos,1,Operacionales de administracion,05,Gastos de personal,69,Aportes a entidades promotoras de salud, EPS
+gastos,1,Operacionales de administracion,05,Gastos de personal,70,Aportes a fondos de pensiones y/o cesantias
+gastos,1,Operacionales de administracion,05,Gastos de personal,72,Aportes cajas de compensacion familiar
+gastos,1,Operacionales de administracion,05,Gastos de personal,75,Aportes ICBF
+gastos,1,Operacionales de administracion,05,Gastos de personal,78,SENA
+gastos,1,Operacionales de administracion,05,Gastos de personal,81,Aportes sindicales
+gastos,1,Operacionales de administracion,05,Gastos de personal,84,Gastos medicos y drogas
+gastos,1,Operacionales de administracion,05,Gastos de personal,95,Otros
+gastos,1,Operacionales de administracion,05,Gastos de personal,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,10,Honorarios,05,Junta directiva
+gastos,1,Operacionales de administracion,10,Honorarios,10,Revisoria fiscal
+gastos,1,Operacionales de administracion,10,Honorarios,15,Auditoria externa
+gastos,1,Operacionales de administracion,10,Honorarios,20,Avaluos
+gastos,1,Operacionales de administracion,10,Honorarios,25,Asesoria juridica
+gastos,1,Operacionales de administracion,10,Honorarios,30,Asesoria financiera
+gastos,1,Operacionales de administracion,10,Honorarios,35,Asesoria tecnica
+gastos,1,Operacionales de administracion,10,Honorarios,95,Otros
+gastos,1,Operacionales de administracion,10,Honorarios,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,15,Impuestos,05,Industria y comercio
+gastos,1,Operacionales de administracion,15,Impuestos,10,De timbres
+gastos,1,Operacionales de administracion,15,Impuestos,15,A la propiedad raiz
+gastos,1,Operacionales de administracion,15,Impuestos,20,Derechos sobre instrumentos publicos
+gastos,1,Operacionales de administracion,15,Impuestos,25,De valorizacion
+gastos,1,Operacionales de administracion,15,Impuestos,30,De turismo
+gastos,1,Operacionales de administracion,15,Impuestos,35,Tasa por utilizacion de puertos
+gastos,1,Operacionales de administracion,15,Impuestos,40,De vehiculos
+gastos,1,Operacionales de administracion,15,Impuestos,45,De espectaculos publicos
+gastos,1,Operacionales de administracion,15,Impuestos,50,Cuotas de fomento
+gastos,1,Operacionales de administracion,15,Impuestos,70,IVA descontable
+gastos,1,Operacionales de administracion,15,Impuestos,95,Otros
+gastos,1,Operacionales de administracion,15,Impuestos,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,20,Arrendamientos,05,Terrenos
+gastos,1,Operacionales de administracion,20,Arrendamientos,10,Construcciones y edificaciones
+gastos,1,Operacionales de administracion,20,Arrendamientos,15,Maquinaria y equipo
+gastos,1,Operacionales de administracion,20,Arrendamientos,20,Equipo de oficina
+gastos,1,Operacionales de administracion,20,Arrendamientos,25,Equipo de computacion y comunicacion
+gastos,1,Operacionales de administracion,20,Arrendamientos,30,Equipo medico-cientifico
+gastos,1,Operacionales de administracion,20,Arrendamientos,35,Equipo de hoteles y restaurantes
+gastos,1,Operacionales de administracion,20,Arrendamientos,40,Flota y equipo de transporte
+gastos,1,Operacionales de administracion,20,Arrendamientos,45,Flota y equipo fluvial y/o maritimo
+gastos,1,Operacionales de administracion,20,Arrendamientos,50,Flota y equipo aereo
+gastos,1,Operacionales de administracion,20,Arrendamientos,55,Flota y equipo ferreo
+gastos,1,Operacionales de administracion,20,Arrendamientos,60,Acueductos, plantas y redes
+gastos,1,Operacionales de administracion,20,Arrendamientos,65,Aerodromos
+gastos,1,Operacionales de administracion,20,Arrendamientos,70,Semovientes
+gastos,1,Operacionales de administracion,20,Arrendamientos,95,Otros
+gastos,1,Operacionales de administracion,20,Arrendamientos,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,25,Contribuciones y afiliaciones,05,Contribuciones
+gastos,1,Operacionales de administracion,25,Contribuciones y afiliaciones,10,Afiliaciones y sostenimiento
+gastos,1,Operacionales de administracion,25,Contribuciones y afiliaciones,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,30,Seguros,05,Manejo
+gastos,1,Operacionales de administracion,30,Seguros,10,Cumplimiento
+gastos,1,Operacionales de administracion,30,Seguros,15,Corriente debil
+gastos,1,Operacionales de administracion,30,Seguros,20,Vida colectiva
+gastos,1,Operacionales de administracion,30,Seguros,25,Incendio
+gastos,1,Operacionales de administracion,30,Seguros,30,Terremoto
+gastos,1,Operacionales de administracion,30,Seguros,35,Sustraccion y hurto
+gastos,1,Operacionales de administracion,30,Seguros,40,Flota y equipo de transporte
+gastos,1,Operacionales de administracion,30,Seguros,45,Flota y equipo fluvial y/o maritimo
+gastos,1,Operacionales de administracion,30,Seguros,50,Flota y equipo aereo
+gastos,1,Operacionales de administracion,30,Seguros,55,Flota y equipo ferreo
+gastos,1,Operacionales de administracion,30,Seguros,60,Responsabilidad civil y extracontractual
+gastos,1,Operacionales de administracion,30,Seguros,65,Vuelo
+gastos,1,Operacionales de administracion,30,Seguros,70,Rotura de maquinaria
+gastos,1,Operacionales de administracion,30,Seguros,75,Obligatorio accidente de transito
+gastos,1,Operacionales de administracion,30,Seguros,80,Lucro cesante
+gastos,1,Operacionales de administracion,30,Seguros,85,Transporte de mercancia
+gastos,1,Operacionales de administracion,30,Seguros,95,Otros
+gastos,1,Operacionales de administracion,30,Seguros,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,35,Servicios,05,Aseo y vigilancia
+gastos,1,Operacionales de administracion,35,Servicios,10,Temporales
+gastos,1,Operacionales de administracion,35,Servicios,15,Asistencia tecnica
+gastos,1,Operacionales de administracion,35,Servicios,20,Procesamiento electronico de datos
+gastos,1,Operacionales de administracion,35,Servicios,25,Acueducto y alcantarillado
+gastos,1,Operacionales de administracion,35,Servicios,30,Energia electrica
+gastos,1,Operacionales de administracion,35,Servicios,35,Telefono
+gastos,1,Operacionales de administracion,35,Servicios,40,Correo, portes y telegramas
+gastos,1,Operacionales de administracion,35,Servicios,45,Fax y telex
+gastos,1,Operacionales de administracion,35,Servicios,50,Transporte fletes y acarreos
+gastos,1,Operacionales de administracion,35,Servicios,55,Gas
+gastos,1,Operacionales de administracion,35,Servicios,95,Otros
+gastos,1,Operacionales de administracion,35,Servicios,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,40,Gastos legales,05,Notariales
+gastos,1,Operacionales de administracion,40,Gastos legales,10,Registro mercantil
+gastos,1,Operacionales de administracion,40,Gastos legales,15,Tramites y licencias
+gastos,1,Operacionales de administracion,40,Gastos legales,20,Aduaneros
+gastos,1,Operacionales de administracion,40,Gastos legales,25,Consulares
+gastos,1,Operacionales de administracion,40,Gastos legales,95,Otros
+gastos,1,Operacionales de administracion,40,Gastos legales,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,05,Terrenos
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,10,Construcciones y edificaciones
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,15,Maquinaria y equipo
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,20,Equipo de oficina
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,25,Equipo de computacion y comunicacion
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,30,Equipo medico-cientifico
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,35,Equipo de hoteles y restaurantes
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,40,Flota y equipo de transporte
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,45,Flota y equipo fluvial y/o maritimo
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,50,Flota y equipo aereo
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,55,Flota y equipo ferreo
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,60,Acueductos, plantas y redes
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,65,Armamento de vigilancia
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,70,Vias de comunicacion
+gastos,1,Operacionales de administracion,45,Mantenimiento y reparaciones,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,50,Adecuacion e instalacion,05,Instalaciones electricas
+gastos,1,Operacionales de administracion,50,Adecuacion e instalacion,10,Arreglos ornamentales
+gastos,1,Operacionales de administracion,50,Adecuacion e instalacion,15,Reparaciones locativas
+gastos,1,Operacionales de administracion,50,Adecuacion e instalacion,95,Otros
+gastos,1,Operacionales de administracion,50,Adecuacion e instalacion,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,55,Gastos de viaje,05,Alojamiento y manutencion
+gastos,1,Operacionales de administracion,55,Gastos de viaje,10,Pasajes fluviales y/o maritimos
+gastos,1,Operacionales de administracion,55,Gastos de viaje,15,Pasajes aereos
+gastos,1,Operacionales de administracion,55,Gastos de viaje,20,Pasajes terrestres
+gastos,1,Operacionales de administracion,55,Gastos de viaje,25,Pasajes ferreos
+gastos,1,Operacionales de administracion,55,Gastos de viaje,95,Otros
+gastos,1,Operacionales de administracion,55,Gastos de viaje,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,60,Depreciaciones,05,Construcciones y edificaciones
+gastos,1,Operacionales de administracion,60,Depreciaciones,10,Maquinaria y equipo
+gastos,1,Operacionales de administracion,60,Depreciaciones,15,Equipo de oficina
+gastos,1,Operacionales de administracion,60,Depreciaciones,20,Equipo de computacion y comunicacion
+gastos,1,Operacionales de administracion,60,Depreciaciones,25,Equipo medico-cientifico
+gastos,1,Operacionales de administracion,60,Depreciaciones,30,Equipo de hoteles y restaurantes
+gastos,1,Operacionales de administracion,60,Depreciaciones,35,Flota y equipo de transporte
+gastos,1,Operacionales de administracion,60,Depreciaciones,40,Flota y equipo fluvial y/o maritimo
+gastos,1,Operacionales de administracion,60,Depreciaciones,45,Flota y equipo aereo
+gastos,1,Operacionales de administracion,60,Depreciaciones,50,Flota y equipo ferreo
+gastos,1,Operacionales de administracion,60,Depreciaciones,55,Acueductos, plantas y redes
+gastos,1,Operacionales de administracion,60,Depreciaciones,60,Armamento de vigilancia
+gastos,1,Operacionales de administracion,60,Depreciaciones,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,65,Amortizaciones,05,Vias de comunicacion
+gastos,1,Operacionales de administracion,65,Amortizaciones,10,Intangibles
+gastos,1,Operacionales de administracion,65,Amortizaciones,15,Cargos diferidos
+gastos,1,Operacionales de administracion,65,Amortizaciones,95,Otras
+gastos,1,Operacionales de administracion,65,Amortizaciones,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,95,Diversos,05,Comisiones
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones, periodicos y revistas
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,15,Musica ambiental
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,20,Gastos de representacion y relaciones publicas
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,25,Elementos de aseo y cafeteria
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,30,utiles, papeleria y fotocopias
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,35,Combustibles y lubricantes
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,40,Envases y empaques
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,45,Taxis y buses
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,50,Estampillas
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,55,Microfilmacion
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,60,Casino y restaurante
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,65,Parqueaderos
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,70,Indemnizacion por daños a terceros
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,75,Polvora y similares
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,95,Otros
+gastos,1,Operacionales de administracion,95,Diversos,10,Libros, suscripciones,99,Ajustes por inflacion
+gastos,1,Operacionales de administracion,99,Provisiones,05,Inversiones
+gastos,1,Operacionales de administracion,99,Provisiones,10,Deudores
+gastos,1,Operacionales de administracion,99,Provisiones,15,Propiedades, planta y equipo
+gastos,1,Operacionales de administracion,99,Provisiones,95,Otros activos
+gastos,1,Operacionales de administracion,99,Provisiones,99,Ajustes por inflacion
+gastos,2,Operacionales de ventas,05,Gastos de personal,03,Salario integral
+gastos,2,Operacionales de ventas,05,Gastos de personal,06,Sueldos
+gastos,2,Operacionales de ventas,05,Gastos de personal,12,Jornales
+gastos,2,Operacionales de ventas,05,Gastos de personal,15,Horas extras y recargos
+gastos,2,Operacionales de ventas,05,Gastos de personal,18,Comisiones
+gastos,2,Operacionales de ventas,05,Gastos de personal,21,Viaticos
+gastos,2,Operacionales de ventas,05,Gastos de personal,24,Incapacidades
+gastos,2,Operacionales de ventas,05,Gastos de personal,27,Auxilio de transporte
+gastos,2,Operacionales de ventas,05,Gastos de personal,30,Cesantias
+gastos,2,Operacionales de ventas,05,Gastos de personal,33,Intereses sobre cesantias
+gastos,2,Operacionales de ventas,05,Gastos de personal,36,Prima de servicios
+gastos,2,Operacionales de ventas,05,Gastos de personal,39,Vacaciones
+gastos,2,Operacionales de ventas,05,Gastos de personal,42,Primas extralegales
+gastos,2,Operacionales de ventas,05,Gastos de personal,45,Auxilios
+gastos,2,Operacionales de ventas,05,Gastos de personal,48,Bonificaciones
+gastos,2,Operacionales de ventas,05,Gastos de personal,51,Dotacion y suministro a trabajadores
+gastos,2,Operacionales de ventas,05,Gastos de personal,54,Seguros
+gastos,2,Operacionales de ventas,05,Gastos de personal,57,Cuotas partes pensiones de jubilacion
+gastos,2,Operacionales de ventas,05,Gastos de personal,58,Amortizacion calculo actuarial pensiones de jubilacion
+gastos,2,Operacionales de ventas,05,Gastos de personal,59,Pensiones de jubilacion
+gastos,2,Operacionales de ventas,05,Gastos de personal,60,Indemnizaciones laborales
+gastos,2,Operacionales de ventas,05,Gastos de personal,61,Amortizacion bonos pensionales
+gastos,2,Operacionales de ventas,05,Gastos de personal,62,Amortizacion titulos pensionales
+gastos,2,Operacionales de ventas,05,Gastos de personal,63,Capacitacion al personal
+gastos,2,Operacionales de ventas,05,Gastos de personal,66,Gastos deportivos y de recreacion
+gastos,2,Operacionales de ventas,05,Gastos de personal,68,Aportes a administradoras de riesgos profesionales, ARP
+gastos,2,Operacionales de ventas,05,Gastos de personal,69,Aportes a entidades promotoras de salud, EPS
+gastos,2,Operacionales de ventas,05,Gastos de personal,70,Aportes a fondos de pensiones y/o cesantias
+gastos,2,Operacionales de ventas,05,Gastos de personal,72,Aportes cajas de compensacion familiar
+gastos,2,Operacionales de ventas,05,Gastos de personal,75,Aportes ICBF
+gastos,2,Operacionales de ventas,05,Gastos de personal,78,SENA
+gastos,2,Operacionales de ventas,05,Gastos de personal,81,Aportes sindicales
+gastos,2,Operacionales de ventas,05,Gastos de personal,84,Gastos medicos y drogas
+gastos,3,No operacionales,05,Financieros,05,Gastos bancarios
+gastos,3,No operacionales,05,Financieros,10,Reajuste monetario-UPAC (hoy UVR)
+gastos,3,No operacionales,05,Financieros,15,Comisiones
+gastos,3,No operacionales,05,Financieros,20,Intereses
+gastos,3,No operacionales,05,Financieros,25,Diferencia en cambio
+gastos,3,No operacionales,05,Financieros,30,Gastos en negociacion certificados de cambio
+gastos,3,No operacionales,05,Financieros,35,Descuentos comerciales condicionados
+gastos,3,No operacionales,05,Financieros,40,Gastos manejo y emision de bonos
+gastos,3,No operacionales,05,Financieros,45,Prima amortizada
+gastos,3,No operacionales,05,Financieros,95,Otros
+gastos,3,No operacionales,05,Financieros,99,Ajustes por inflacion

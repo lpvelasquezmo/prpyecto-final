@@ -21,6 +21,7 @@ import java.util.InputMismatchException;
 import java.util.Iterator;
 import java.util.Scanner;
 import java.util.StringTokenizer;
+import java.util.GregorianCalendar;
 
 public class WabiSabiNomina {
 
@@ -54,12 +55,13 @@ public class WabiSabiNomina {
 
         new WabiSabiNomina().iniciar(empresa, archiEmpr, de);
         new WabiSabiNomina().leerContras(archiCont, empresa);
+        new WabiSabiNomina().leerTrabs(archiTrab, empresa);
         System.out.println("hoa1   " +empresa.getContratos().size());
         
         new WabiSabiNomina().fin ( empresa, archiCont);
       //  new WabiSabiNomina().leerTurns(archiTur, empresa);
         System.out.println("hoa2");
-        new WabiSabiNomina().leerTrabs(archiTrab, empresa);
+        
         System.out.println(" hoa3");
 //if (auxi1 == true && auxi2 == true && auxi3 == true ){
 
@@ -412,7 +414,7 @@ public class WabiSabiNomina {
                                 System.out.println("la direccion de recidencia:");
                                 String Dire = (en1.nextLine());
                                 System.out.println("el numero de contacto:\n");
-                                Double Tel = (en1.nextDouble());
+                                String Tel = (en1.nextLine());
                                 en1.nextLine();
                                 System.out.println("Salario mensual:");
                                 Double Salario = (en1.nextDouble());
@@ -664,7 +666,7 @@ public class WabiSabiNomina {
                 traba.setLTi(lugar);
                 String dir = st.nextToken();
                 traba.setDire(dir);
-                double tel = Double.parseDouble(st.nextToken().trim());
+                String tel = (st.nextToken().trim());
                 traba.setTel(tel);
                 double salario = Double.parseDouble(st.nextToken().trim());
                 traba.setSalario(salario);
@@ -970,20 +972,35 @@ public class WabiSabiNomina {
     public void fin (Empresa empresa, File archiContra){
         Scanner hg = new Scanner (System.in);
         System.out.println("ENTRO FIN\n");
+        
+             
+        
       try {
           for (Iterator <contrato> con  = empresa.getContratos().iterator(); con.hasNext();){
                                    contrato x = con.next();
-                                   System.out.println("ENTRO FOR FIN\n");
-            if (x.getTipo().equals("fijo")){
-                int año = x.getFechaF().getAño() - x.getFechaI().getAño();
+                            System.out.println("ENTRO For\n");
+               
+            if (x.getTipo().equals("Fijo")){
+                
+                System.out.println("CONTRA:  "+ x.getId());
+                
+                FechaActual fecha = new FechaActual();
+        int hoyD = fecha.getDia();
+        int hoyM = fecha.getMes();
+        int hoyA = fecha.getAño();
+                
+                int año = x.getFechaF().getAño() - hoyA;
+                int mes = x.getFechaF().getMes() - hoyM;
+                int dia = x.getFechaF().getDia() - hoyD;
+                
                 System.out.println("AÑO: \n" + año);
-                int mes = x.getFechaF().getMes() - x.getFechaI().getMes();
                 System.out.println("mes : \n" + mes);
-                int dia = x.getFechaF().getDia() - x.getFechaI().getDia();
                 System.out.println("dia : \n" + dia);
-                if (año ==0 && mes ==0 && dia <=5 ){
-                    System.out.println("ENTRO IF FIN\n");
-                    for (Iterator <trabajador> tra  = empresa.getTras().iterator(); tra.hasNext();){
+                
+                if ( año == 0 && mes == 0 && dia <= 5 ){
+                    
+                    
+                    for ( Iterator <trabajador> tra  = empresa.getTras().iterator(); tra.hasNext();){
                         trabajador trabaja = tra.next();
                         System.out.println("ENTRO FOR EACH \n");
                         if (trabaja.getTi().equals(x.getId())){

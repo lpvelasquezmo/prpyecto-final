@@ -1,0 +1,149 @@
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,05,Cultivo de cereales
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,10,Cultivos de hortalizas legumbres y plantas ornamentales
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,15,Cultivos de frutas nueces y plantas aromáticas
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,20,Cultivo de cafe
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,25,Cultivo de flores
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,30,Cultivo de caña de azucar
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,35,Cultivo de algodon y plantas para material textil
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,40,Cultivo de banano
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,45,Otros cultivos agricolas
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,50,Cria de ovejas, cabras, asnos, mulas y burdeganos
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,55,Cria de ganado caballar y vacuno
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,60,Produccion avicola
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,65,Cria de otros animales
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,70,Servicios agricolas y ganaderos
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,75,Actividad de caza
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,80,Actividad de silvicultura
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,95,Actividades conexas
+ingresos,1,Operacionales,05,Agricultura ganaderia caza y silvicultura,99,Ajustes por inflacion
+ingresos,1,Operacionales,10,Pesca,05,Actividad de pesca
+ingresos,1,Operacionales,10,Pesca,10,Explotacion de criaderos de peces
+ingresos,1,Operacionales,10,Pesca,95,Actividades conexas
+ingresos,1,Operacionales,10,Pesca,99,Ajustes por inflacion
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,05,Carbon
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,10,Petroleo crudo
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,12,Gas natural
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,14,Servicios relacionados con extraccion de petroleo y gas
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,15,Minerales de hierro
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,20,Minerales metaliferos no ferrosos
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,25,Piedra arena y arcilla
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,27,Piedras preciosas
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,28,Oro
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,30,Otras minas y canteras
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,32,Prestacion de servicios sector minero
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,95,Actividades conexas
+ingresos,1,Operacionales,15,Explotacion de minas y canteras,99,Ajustes por inflacion
+ingresos,1,Operacionales,20,Industrias manufacturera,01,Produccion y procesamiento de carnes y productos cárnicos
+ingresos,1,Operacionales,20,Industrias manufacturera,02,Productos de pescado
+ingresos,1,Operacionales,20,Industrias manufacturera,03,Productos de frutas legumbres y hortalizas
+ingresos,1,Operacionales,20,Industrias manufacturera,04,Elaboracion de aceites y grasas
+ingresos,1,Operacionales,20,Industrias manufacturera,05,Elaboracion de productos lacteos
+ingresos,1,Operacionales,20,Industrias manufacturera,06,Elaboracion de productos de molineria
+ingresos,1,Operacionales,20,Industrias manufacturera,07,Elaboracion de almidones y derivados
+ingresos,1,Operacionales,20,Industrias manufacturera,08,Elaboracion de alimentos para animales
+ingresos,1,Operacionales,20,Industrias manufacturera,09,Elaboracion de productos para panaderia
+ingresos,1,Operacionales,20,Industrias manufacturera,10,Elaboracion de azucar y melazas
+ingresos,1,Operacionales,20,Industrias manufacturera,11,Elaboracion de cacao, chocolate y confiteria
+ingresos,1,Operacionales,20,Industrias manufacturera,12,Elaboracion de pastas y productos farináceos
+ingresos,1,Operacionales,20,Industrias manufacturera,13,Elaboracion de productos de cafe
+ingresos,1,Operacionales,20,Industrias manufacturera,14,Elaboracion de otros productos alimenticios
+ingresos,1,Operacionales,20,Industrias manufacturera,15,Elaboracion de bebidas alcoholicas y alcohol etilico
+ingresos,1,Operacionales,20,Industrias manufacturera,16,Elaboracion de vinos
+ingresos,1,Operacionales,20,Industrias manufacturera,17,Elaboracion de bebidas malteadas y de malta
+ingresos,1,Operacionales,20,Industrias manufacturera,18,Elaboracion de bebidas no alcoholicas
+ingresos,1,Operacionales,20,Industrias manufacturera,19,Elaboracion de productos de tabaco
+ingresos,1,Operacionales,20,Industrias manufacturera,20,Preparacion e hilatura de fibras textiles y tejeduria
+ingresos,1,Operacionales,20,Industrias manufacturera,21,Acabado de productos textiles
+ingresos,1,Operacionales,20,Industrias manufacturera,22,Elaboracion de articulos de materiales textiles
+ingresos,1,Operacionales,20,Industrias manufacturera,23,Elaboracion de tapices y alfombras
+ingresos,1,Operacionales,20,Industrias manufacturera,24,Elaboracion de cuerdas cordeles bramantes y redes
+ingresos,1,Operacionales,20,Industrias manufacturera,25,Elaboracion de otros productos textiles
+ingresos,1,Operacionales,20,Industrias manufacturera,26,Elaboracion de tejidos
+ingresos,1,Operacionales,20,Industrias manufacturera,27,Elaboracion de prendas de vestir
+ingresos,1,Operacionales,20,Industrias manufacturera,28,Preparacion adobo y teñido de pieles
+ingresos,1,Operacionales,20,Industrias manufacturera,29,Curtido adobo o preparacion de cuero
+ingresos,1,Operacionales,20,Industrias manufacturera,30,Elaboracion de maletas bolsos y similares
+ingresos,1,Operacionales,20,Industrias manufacturera,31,Elaboracion de calzado
+ingresos,1,Operacionales,20,Industrias manufacturera,32,Produccion de madera articulos de madera y corcho
+ingresos,1,Operacionales,20,Industrias manufacturera,33,Elaboracion de pasta y productos de madera papel y carton
+ingresos,1,Operacionales,20,Industrias manufacturera,34,Ediciones y publicaciones
+ingresos,1,Operacionales,20,Industrias manufacturera,35,Impresion
+ingresos,1,Operacionales,20,Industrias manufacturera,36,Servicios relacionados con la edicion y la impresion
+ingresos,1,Operacionales,20,Industrias manufacturera,37,Reproduccion de grabaciones
+ingresos,1,Operacionales,20,Industrias manufacturera,38,Elaboracion de productos de horno de coque
+ingresos,1,Operacionales,20,Industrias manufacturera,39,Elaboracion de productos de la refinacion de petroleo
+ingresos,1,Operacionales,20,Industrias manufacturera,40,Elaboracion de sustancias quimicas básicas
+ingresos,1,Operacionales,20,Industrias manufacturera,41,Elaboracion de abonos y compuestos de nitrogeno
+ingresos,1,Operacionales,20,Industrias manufacturera,42,Elaboracion de plástico y caucho sintetico
+ingresos,1,Operacionales,20,Industrias manufacturera,43,Elaboracion de productos quimicos de uso agropecuario
+ingresos,1,Operacionales,20,Industrias manufacturera,44,Elaboracion de pinturas tintas y masillas
+ingresos,1,Operacionales,20,Industrias manufacturera,45,Elaboracion de productos farmaceuticos y botánicos
+ingresos,1,Operacionales,20,Industrias manufacturera,46,Elaboracion de jabones detergentes y preparados de tocador
+ingresos,1,Operacionales,20,Industrias manufacturera,47,Elaboracion de otros productos quimicos
+ingresos,1,Operacionales,20,Industrias manufacturera,48,Elaboracion de fibras
+ingresos,1,Operacionales,20,Industrias manufacturera,49,Elaboracion de otros productos de caucho
+ingresos,1,Operacionales,20,Industrias manufacturera,50,Elaboracion de productos de plástico
+ingresos,1,Operacionales,20,Industrias manufacturera,51,Elaboracion de vidrio y productos de vidrio
+ingresos,1,Operacionales,20,Industrias manufacturera,52,Elaboracion de productos de cerámica loza piedra arcilla y porcelana
+ingresos,1,Operacionales,20,Industrias manufacturera,53,Elaboracion de cemento cal y yeso
+ingresos,1,Operacionales,20,Industrias manufacturera,54,Elaboracion de articulos de hormigon cemento y yeso
+ingresos,1,Operacionales,20,Industrias manufacturera,55,Corte tallado y acabado de la piedra
+ingresos,1,Operacionales,35,Comercio al por mayor y al por menor,02,Venta de vehiculos automotores
+ingresos,1,Operacionales,35,Comercio al por mayor y al por menor,04,Mantenimiento reparacion y lavado de vehiculos automotores
+ingresos,1,Operacionales,35,Comercio al por mayor y al por menor,06,Venta de partes piezas y accesorios de vehiculos automotores
+ingresos,1,Operacionales,35,Comercio al por mayor y al por menor,08,Venta de combustibles solidos liquidos gaseosos
+ingresos,1,Operacionales,35,Comercio al por mayor y al por menor,10,Venta de lubricantes aditivos llantas y lujos para automotores
+ingresos,1,Operacionales,35,Comercio al por mayor y al por menor,12,Venta a cambio de retribucion o por contrata
+ingresos,1,Operacionales,35,Comercio al por mayor y al por menor,14,Venta de insumos materias primas agropecuarias y flores
+ingresos,1,Operacionales,35,Comercio al por mayor y al por menor,16,Venta de otros insumos y materias primas no agropecuarias
+ingresos,1,Operacionales,40,Hoteles y restaurantes,05,Hoteleria
+ingresos,1,Operacionales,40,Hoteles y restaurantes,10,Campamento y otros tipos de hospedaje
+ingresos,1,Operacionales,40,Hoteles y restaurantes,15,Restaurantes
+ingresos,1,Operacionales,40,Hoteles y restaurantes,20,Bares y cantinas
+ingresos,1,Operacionales,40,Hoteles y restaurantes,95,Actividades conexas
+ingresos,1,Operacionales,40,Hoteles y restaurantes,99,Ajustes por inflacion
+ingresos,2,No operacionales,05,Otras ventas,05,Materia prima
+ingresos,2,No operacionales,05,Otras ventas,10,Material de desecho
+ingresos,2,No operacionales,05,Otras ventas,15,Materiales varios
+ingresos,2,No operacionales,05,Otras ventas,20,Productos de diversificacion
+ingresos,2,No operacionales,05,Otras ventas,25,Excedentes de exportacion
+ingresos,2,No operacionales,05,Otras ventas,30,Envases y empaques
+ingresos,2,No operacionales,05,Otras ventas,35,Productos agricolas
+ingresos,2,No operacionales,05,Otras ventas,40,De propaganda
+ingresos,2,No operacionales,05,Otras ventas,45,Productos en remate
+ingresos,2,No operacionales,05,Otras ventas,50,Combustibles y lubricantes
+ingresos,2,No operacionales,05,Otras ventas,99,Ajustes por inflacion
+ingresos,2,No operacionales,05,Otras ventas,10,Financieros,05,Intereses
+ingresos,2,No operacionales,05,Otras ventas,10,Reajuste monetario-UPAC (hoy UVR)
+ingresos,2,No operacionales,05,Otras ventas,15,Descuentos amortizados
+ingresos,2,No operacionales,05,Otras ventas,20,Diferencia en cambio
+ingresos,2,No operacionales,05,Otras ventas,25,Financiacion vehiculos
+ingresos,2,No operacionales,05,Otras ventas,30,Financiacion sistemas de viajes
+ingresos,2,No operacionales,05,Otras ventas,35,Aceptacionesingresos bancarias
+ingresos,2,No operacionales,05,Otras ventas,40,Descuentos comerciales condicionados
+ingresos,2,No operacionales,05,Otras ventas,45,Descuentos bancarios
+ingresos,2,No operacionales,05,Otras ventas,50,Comisiones cheques de otras plazas
+ingresos,2,No operacionales,05,Otras ventas,55,Multas y recargos
+ingresos,2,No operacionales,05,Otras ventas,60,Sanciones cheques devueltos
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,05,Inversiones (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,10,Inventarios (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,15,Propiedades, planta y equipo (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,20,Intangibles (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,25,Activos diferidos
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,30,Otros activos (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,35,Pasivos sujetos de ajuste
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,40,Patrimonio
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,45,Depreciacion acumulada (DB)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,50,Depreciacion diferida (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,55,Agotamiento acumulado (DB)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,60,Amortizacion acumulada (DB)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,65,Ingresos operacionales (DB)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,68,Devoluciones en ventas (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,70,Ingresos no operacionales (DB)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,75,Gastos operacionales de administracion (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,80,Gastos operacionales de ventas (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,85,Gastos no operacionales (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,90,Compras (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,91,Devoluciones en compras (DB)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,92,Costo de ventas (CR)
+ingresos,7,Ajustes por inflacion,05,Correccion monetaria,94,Costos de produccion o de operacion (CR)

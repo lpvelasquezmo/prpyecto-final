@@ -1,0 +1,468 @@
+activo,1,disponible,05,caja,05,Caja general
+activo,1,disponible,05,caja,10,Cajas menores
+activo,1,disponible,05,caja,15,Moneda extranjera
+activo,1,disponible,10,Bancos,05,Moneda nacional
+activo,1,disponible,10,Bancos,10,Moneda extranjera
+activo,1,disponible,15,Remesas en transito,05,Moneda nacional
+activo,1,disponible,15,Remesas en tránsito,10,Moneda extranjera
+activo,1,disponible,20,Cuentas de ahorro,05,Bancos
+activo,1,disponible,20,Cuentas de ahorro,10,Corporaciones de ahorro y vivienda
+activo,1,disponible,20,Cuentas de ahorro,15,Organismos cooperativos financieros
+activo,1,disponible,25,Fondos,05,Rotatorios moneda nacional
+activo,1,disponible,25,Fondos,10,Rotatorios moneda extranjera
+activo,1,disponible,25,Fondos,15,Especiales moneda nacional
+activo,1,disponible,25,Fondos,20,Especiales moneda extranjera
+activo,1,disponible,25,Fondos,25,De amortizacion moneda nacional
+activo,1,disponible,25,Fondos,30,De amortizacion moneda extranjera
+activo,2,inversiones,05,Acciones,05,Agricultura ganaderia caza y silvicultura
+activo,2,inversiones,05,Acciones,10,Pesca
+activo,2,inversiones,05,Acciones,15,Explotacion de minas y canteras
+activo,2,inversiones,05,Acciones,20,Industria manufacturera
+activo,2,inversiones,05,Acciones,25,Suministro de electricidad gas y agua
+activo,2,inversiones,05,Acciones,30,Construccion
+activo,2,inversiones,05,Acciones,35,Comercio al por mayor y al por menor
+activo,2,inversiones,05,Acciones,40,Hoteles y restaurantes
+activo,2,inversiones,05,Acciones,45,Transporte almacenamiento y comunicaciones
+activo,2,inversiones,05,Acciones,50,Actividad financiera
+activo,2,inversiones,05,Acciones,55,Actividades inmobiliarias empresariales y de alquiler
+activo,2,inversiones,05,Acciones,60,Enseñanza
+activo,2,inversiones,05,Acciones,65,Servicios sociales y de salud
+activo,2,inversiones,05,Acciones,70,Otras actividades de servicios comunitarios sociales y personales
+activo,2,inversiones,05,Acciones,99,Ajustes por inflacion
+activo,2,inversiones,10,Cuotas o partes de interes social,05,Agricultura ganaderia caza y silvicultura
+activo,2,inversiones,10,Cuotas o partes de interes social,10,Pesca
+activo,2,inversiones,10,Cuotas o partes de interes social,15,Explotacion de minas y canteras
+activo,2,inversiones,10,Cuotas o partes de interes social,20,Industria manufacturera
+activo,2,inversiones,10,Cuotas o partes de interes social,25,Suministro de electricidad gas y agua
+activo,2,inversiones,10,Cuotas o partes de interes social,30,Construccion
+activo,2,inversiones,10,Cuotas o partes de interes social,35,Comercio al por mayor y al por menor
+activo,2,inversiones,10,Cuotas o partes de interes social,40,Hoteles y restaurantes
+activo,2,inversiones,10,Cuotas o partes de interes social,45,Transporte, almacenamiento y comunicaciones
+activo,2,inversiones,10,Cuotas o partes de interes social,50,Actividad financiera
+activo,2,inversiones,10,Cuotas o partes de interes social,55,Actividades inmobiliarias empresariales y de alquiler
+activo,2,inversiones,10,Cuotas o partes de interes social,60,Enseñanza
+activo,2,inversiones,10,Cuotas o partes de interes social,65,Servicios sociales y de salud
+activo,2,inversiones,10,Cuotas o partes de interes social,70,Otras actividades de servicios comunitarios, sociales y personales
+activo,2,inversiones,10,Cuotas o partes de interes social,99,Ajustes por inflacion
+activo,2,inversiones,15,Bonos,05,Bonos publicos moneda nacional
+activo,2,inversiones,15,Bonos,10,Bonos publicos moneda extranjera
+activo,2,inversiones,15,Bonos,15,Bonos ordinarios
+activo,2,inversiones,15,Bonos,20,Bonos convertibles en acciones
+activo,2,inversiones,15,Bonos,95,Otros
+activo,2,inversiones,20,Cedulas,05,Cedulas de capitalizacion
+activo,2,inversiones,20,Cedulas,10,Cedulas hipotecarias
+activo,2,inversiones,20,Cedulas,15,Cedulas de inversion
+activo,2,inversiones,20,Cedulas,95,Otras
+activo,2,inversiones,25,Certificados,05,Certificados de deposito a termino (CDT)
+activo,2,inversiones,25,Certificados,10,Certificados de deposito de ahorro
+activo,2,inversiones,25,Certificados,15,Certificados de ahorro de valor constante (CAVC)
+activo,2,inversiones,25,Certificados,20,Certificados de cambio
+activo,2,inversiones,25,Certificados,25,Certificados cafeteros valorizables
+activo,2,inversiones,25,Certificados,30,Certificados electricos valorizables (CEV)
+activo,2,inversiones,25,Certificados,35,Certificados de reembolso tributario (CERT)
+activo,2,inversiones,25,Certificados,40,Certificados de desarrollo turistico
+activo,2,inversiones,25,Certificados,45,Certificados de inversion forestal (CIF)
+activo,2,inversiones,25,Certificados,95,Otros
+activo,2,inversiones,30,Papeles comerciales,05,Empresas comerciales
+activo,2,inversiones,30,Papeles comerciales,10,Empresas industriales
+activo,2,inversiones,30,Papeles comerciales,15,Empresas de servicios
+activo,2,inversiones,35,Titulos,05,Titulos de desarrollo agropecuario
+activo,2,inversiones,35,Titulos,10,Titulos canjeables por certificados de cambio
+activo,2,inversiones,35,Titulos,15,Titulos de tesoreria (TES)
+activo,2,inversiones,35,Titulos,20,Titulos de participacion
+activo,2,inversiones,35,Titulos,25,Titulos de credito de fomento
+activo,2,inversiones,35,Titulos,30,Titulos financieros agroindustriales (TFA)
+activo,2,inversiones,35,Titulos,35,Titulos de ahorro cafetero (TAC)
+activo,2,inversiones,35,Titulos,40,Titulos de ahorro nacional (TAN)
+activo,2,inversiones,35,Titulos,45,Titulos energeticos de rentabilidad creciente (TER)
+activo,2,inversiones,35,Titulos,50,Titulos de ahorro educativo (TAE)
+activo,2,inversiones,35,Titulos,55,Titulos financieros industriales y comerciales
+activo,2,inversiones,35,Titulos,60,Tesoros
+activo,2,inversiones,35,Titulos,65,Titulos de devolucion de impuestos nacionales (TIDIS)
+activo,2,inversiones,35,Titulos,70,Titulos inmobiliarios
+activo,2,inversiones,35,Titulos,95,Otros
+activo,2,inversiones,40,Aceptaciones bancarias o financieras,05,Bancos comerciales
+activo,2,inversiones,40,Aceptaciones bancarias o financieras,10,Compañias de financiamiento comercial
+activo,2,inversiones,40,Aceptaciones bancarias o financieras,15,Corporaciones financieras
+activo,2,inversiones,40,Aceptaciones bancarias o financieras,95,Otras
+activo,2,inversiones,45,Derechos fiduciarios,05,Fideicomisos de inversion moneda nacional
+activo,2,inversiones,45,Derechos fiduciarios,10,Fideicomisos de inversion moneda extranjera
+activo,2,inversiones,50,Derechos de recompra de inversiones negociadas (repos),05,Acciones
+activo,2,inversiones,50,Derechos de recompra de inversiones negociadas (repos),10,Cuotas o partes de interes social
+activo,2,inversiones,50,Derechos de recompra de inversiones negociadas (repos),15,Bonos
+activo,2,inversiones,50,Derechos de recompra de inversiones negociadas (repos),20,Cedulas
+activo,2,inversiones,50,Derechos de recompra de inversiones negociadas (repos),25,Certificados
+activo,2,inversiones,50,Derechos de recompra de inversiones negociadas (repos),30,Papeles comerciales
+activo,2,inversiones,50,Derechos de recompra de inversiones negociadas (repos),35,Titulos
+activo,2,inversiones,50,Derechos de recompra de inversiones negociadas (repos),40,aceptaciones bancarias o financieras
+activo,2,inversiones,50,Derechos de recompra de inversiones negociadas (repos),95,otros
+activo,2,inversiones,50,Derechos de recompra de inversiones negociadas (repos),99,Ajustes por inflacion
+activo,2,inversiones,55,Obligatorias,05,Bonos de financiamiento especial
+activo,2,inversiones,55,Obligatorias,10,Bonos de financiamiento presupuestal
+activo,2,inversiones,55,Obligatorias,15,Bonos para desarrollo social y seguridad interna (BDSI)
+activo,2,inversiones,55,Obligatorias,95,Otras
+activo,2,inversiones,60,Cuentas en participacion,99,Ajustes por inflacion
+activo,2,inversiones,95,Otras inversiones,05,Aportes en cooperativas
+activo,2,inversiones,95,Otras inversiones,10,Derechos en clubes sociales
+activo,2,inversiones,95,Otras inversiones,15,Acciones o derechos en clubes deportivos
+activo,2,inversiones,95,Otras inversiones,20,Bonos en colegios
+activo,2,inversiones,95,Otras inversiones,95,Diversas
+activo,2,inversiones,95,Otras inversiones,99,Ajustes por inflacion
+activo,2,inversiones,99,Provisiones,05,Acciones
+activo,2,inversiones,99,Provisiones,10,Cuotas o partes de interes social
+activo,2,inversiones,99,Provisiones,15,Bonos
+activo,2,inversiones,99,Provisiones,20,Cedulas
+activo,2,inversiones,99,Provisiones,25,Certificados
+activo,2,inversiones,99,Provisiones,30,Papeles comerciales
+activo,2,inversiones,99,Provisiones,35,Titulos
+activo,2,inversiones,99,Provisiones,40,Aceptaciones bancarias o financieras
+activo,2,inversiones,99,Provisiones,45,Derechos fiduciarios
+activo,2,inversiones,99,Provisiones,50,Derechos de recompra de inversiones negociadas
+activo,2,inversiones,99,Provisiones,55,Obligatorias
+activo,2,inversiones,99,Provisiones,60,Cuentas en participacion
+activo,2,inversiones,99,Provisiones,95,Otras inversiones
+activo,3,deudores,05,Clientes,05,Nacionales
+activo,3,deudores,05,Clientes,10,Del exterior
+activo,3,deudores,05,Clientes,15,Deudores del sistema
+activo,3,deudores,10,Cuentas corrientes comerciales,05,Casa matriz
+activo,3,deudores,10,Cuentas corrientes comerciales,10,Compañias vinculadas
+activo,3,deudores,10,Cuentas corrientes comerciales,15,Accionistas o socios
+activo,3,deudores,10,Cuentas corrientes comerciales,20,Particulares
+activo,3,deudores,10,Cuentas corrientes comerciales,95,Otras
+activo,3,deudores,15,Cuentas por cobrar a casa matriz,05,Ventas
+activo,3,deudores,15,Cuentas por cobrar a casa matriz,10,Pagos a nombre de casa matriz
+activo,3,deudores,15,Cuentas por cobrar a casa matriz,15,Valores recibidos por casa matriz
+activo,3,deudores,15,Cuentas por cobrar a casa matriz,20,Prestamos
+activo,3,deudores,20,Cuentas por cobrar a vinculados economicos,05,Filiales
+activo,3,deudores,20,Cuentas por cobrar a vinculados economicos,10,Subsidiarias
+activo,3,deudores,20,Cuentas por cobrar a vinculados economicos,15,Sucursales
+activo,3,deudores,25,Cuentas por cobrar a socios y accionistas,05,A socios
+activo,3,deudores,25,Cuentas por cobrar a socios y accionistas,10,A accionistas
+activo,3,deudores,30,Anticipos y avances,05,A proveedores
+activo,3,deudores,30,Anticipos y avances,10,A contratistas
+activo,3,deudores,30,Anticipos y avances,15,A trabajadores
+activo,3,deudores,30,Anticipos y avances,20,A agentes
+activo,3,deudores,30,Anticipos y avances,25,A concesionarios
+activo,3,deudores,30,Anticipos y avances,30,De adjudicaciones
+activo,3,deudores,30,Anticipos y avances,95,Otros
+activo,3,deudores,30,Anticipos y avances,99,Ajustes por inflacion
+activo,3,deudores,35,Depositos,05,Para importaciones
+activo,3,deudores,35,Depositos,10,Para servicios
+activo,3,deudores,35,Depositos,15,Para contratos
+activo,3,deudores,35,Depositos,20,Para responsabilidades
+activo,3,deudores,35,Depositos,25,Para juicios ejecutivos
+activo,3,deudores,35,Depositos,30,Para adquisicion de acciones, cuotas o derechos sociales
+activo,3,deudores,35,Depositos,35,En garantia
+activo,3,deudores,35,Depositos,95,Otros
+activo,3,deudores,40,Promesas de compra venta,05,De bienes raices
+activo,3,deudores,40,Promesas de compra venta,10,De maquinaria y equipo
+activo,3,deudores,40,Promesas de compra venta,15,De flota y equipo de transporte
+activo,3,deudores,40,Promesas de compra venta,20,De flota y equipo aereo
+activo,3,deudores,40,Promesas de compra venta,25,De flota y equipo ferreo
+activo,3,deudores,40,Promesas de compra venta,30,De flota y equipo fluvial y/o maritimo
+activo,3,deudores,40,Promesas de compra venta,35,De semovientes
+activo,3,deudores,40,Promesas de compra venta,95,De otros bienes
+activo,3,deudores,45,Ingresos por cobrar,05,Dividendos y/o participaciones
+activo,3,deudores,45,Ingresos por cobrar,10,Intereses
+activo,3,deudores,45,Ingresos por cobrar,15,Comisiones
+activo,3,deudores,45,Ingresos por cobrar,20,Honorarios
+activo,3,deudores,45,Ingresos por cobrar,25,Servicios
+activo,3,deudores,45,Ingresos por cobrar,30,Arrendamientos
+activo,3,deudores,45,Ingresos por cobrar,35,CERT por cobrar
+activo,3,deudores,45,Ingresos por cobrar,95,Otros
+activo,3,deudores,50,Retencion sobre contratos,05,De construccion
+activo,3,deudores,50,Retencion sobre contratos,10,De prestacion de servicios
+activo,3,deudores,50,Retencion sobre contratos,95,Otros
+activo,3,deudores,55,Anticipo de impuestos y contribuciones o saldos a favor,05,Anticipo de impuestos de renta y complementarios
+activo,3,deudores,55,Anticipo de impuestos y contribuciones o saldos a favor,10,Anticipo de impuestos de industria y comercio
+activo,3,deudores,55,Anticipo de impuestos y contribuciones o saldos a favor,15,Retencion en la fuente
+activo,3,deudores,55,Anticipo de impuestos y contribuciones o saldos a favor,17,Impuesto a las ventas retenido
+activo,3,deudores,55,Anticipo de impuestos y contribuciones o saldos a favor,18,Impuesto de industria y comercio retenido
+activo,3,deudores,55,Anticipo de impuestos y contribuciones o saldos a favor,20,Sobrantes en liquidacion privada de impuestos
+activo,3,deudores,55,Anticipo de impuestos y contribuciones o saldos a favor,25,Contribuciones
+activo,3,deudores,55,Anticipo de impuestos y contribuciones o saldos a favor,30,Impuestos descontables
+activo,3,deudores,55,Anticipo de impuestos y contribuciones o saldos a favor,95,Otros
+activo,3,deudores,60,Reclamaciones,05, A compañias aseguradoras
+activo,3,deudores,60,Reclamaciones,10,A transportadores
+activo,3,deudores,60,Reclamaciones,15,Por tiquetes aereos
+activo,3,deudores,60,Reclamaciones,95,Otras
+activo,3,deudores,65,Cuentas por cobrar a trabajadores,05,Vivienda
+activo,3,deudores,65,Cuentas por cobrar a trabajadores,10,Vehiculos
+activo,3,deudores,65,Cuentas por cobrar a trabajadores,15,Educacion
+activo,3,deudores,65,Cuentas por cobrar a trabajadores,20,Medicos, odontologicos y similares
+activo,3,deudores,65,Cuentas por cobrar a trabajadores,25,Calamidad domestica
+activo,3,deudores,65,Cuentas por cobrar a trabajadores,30,Responsabilidades
+activo,3,deudores,65,Cuentas por cobrar a trabajadores,95,Otros
+activo,3,deudores,70,Prestamos a particulares,05,Con garantia real
+activo,3,deudores,70,Prestamos a particulares,10,Con garantia personal
+activo,3,deudores,80,Deudores varios,05,Depositarios
+activo,3,deudores,80,Deudores varios,10,Comisionistas de bolsas
+activo,3,deudores,80,Deudores varios,15,Fondo de inversion
+activo,3,deudores,80,Deudores varios,20,Cuentas por cobrar de terceros
+activo,3,deudores,80,Deudores varios,25,Pagos por cuenta de terceros
+activo,3,deudores,80,Deudores varios,30,Fondos de inversion social
+activo,3,deudores,80,Deudores varios,95,Otros
+activo,3,deudores,99,Provisiones,05,Clientes
+activo,3,deudores,99,Provisiones,10,Cuentas corrientes comerciales
+activo,3,deudores,99,Provisiones,15,Cuentas por cobrar a casa matriz
+activo,3,deudores,99,Provisiones,20,Cuentas por cobrar a vinculados economicos
+activo,3,deudores,99,Provisiones,25,Cuentas por cobrar a socios y accionistas
+activo,3,deudores,99,Provisiones,30,Anticipos y avances
+activo,3,deudores,99,Provisiones,32,Cuentas de operacion conjunta
+activo,3,deudores,99,Provisiones,35,Depositos
+activo,3,deudores,99,Provisiones,40,Promesas de compraventa
+activo,3,deudores,99,Provisiones,45,Ingresos por cobrar
+activo,3,deudores,99,Provisiones,50,Retencion sobre contratos
+activo,3,deudores,99,Provisiones,55,Reclamaciones
+activo,3,deudores,99,Provisiones,60,Cuentas por cobrar a trabajadores
+activo,3,deudores,99,Provisiones,65,Prestamos a particulares
+activo,3,deudores,99,Provisiones,75,Deudores varios
+activo,3,deudores,99,Provisiones,80,Derechos de recompra de cartera negociada
+activo,4,inventarios,05,Materias primas,99,Ajustes por inflacion
+activo,4,inventarios,10,Productos en proceso,99,Ajustes por inflacion
+activo,4,inventarios,15,Obras de construccion en curso,99,Ajustes por inflacion
+activo,4,inventarios,17,Obras de urbanismo,99,Ajustes por inflacion
+activo,4,inventarios,30,Productos terminados,05,Productos manufacturados
+activo,4,inventarios,30,Productos terminados,10,Productos extraidos y/o procesados
+activo,4,inventarios,30,Productos terminados,15,Productos agricolas y forestales
+activo,4,inventarios,30,Productos terminados,20,Subproductos
+activo,4,inventarios,30,Productos terminados,25,Productos de pesca
+activo,4,inventarios,30,Productos terminados,99,Ajustes por inflacion
+activo,4,inventarios,35,Mercancias no fabricadas por la empresa,99,Ajustes por inflacion
+activo,4,inventarios,40,Bienes raices para la venta,99,Ajustes por inflacion
+activo,4,inventarios,45,Semovientes,99,Ajustes por inflacion
+activo,4,inventarios,50,Terrenos,05,Por urbanizar
+activo,4,inventarios,50,Terrenos,10,Urbanizados por construir
+activo,4,inventarios,50,Terrenos,99,Ajustes por inflacion
+activo,4,inventarios,55,Materiales repuestos y accesorios,99,Ajustes por inflacion
+activo,4,inventarios,60,Envases y empaques,99,Ajustes por inflacion
+activo,4,inventarios,65,Inventarios en transito,99,Ajustes por inflacion
+activo,4,inventarios,99,Provisiones,05,Para obsolescencia
+activo,4,inventarios,99,Provisiones,10, Para diferencia de inventario fisico
+activo,4,inventarios,99,Provisiones,15,Para perdidas de inventarios
+activo,4,inventarios,99,Provisiones,20,Lifo
+activo,5,Propiedades planta y equipo,04,Terrenos,05,Urbanos
+activo,5,Propiedades planta y equipo,04,Terrenos,10,Rurales
+activo,5,Propiedades planta y equipo,04,Terrenos,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,06,Materiales proyectos petroleros,05,Tuberias y equipo,
+activo,5,Propiedades planta y equipo,06,Materiales proyectos petroleros,10,Costos de importacion materiales
+activo,5,Propiedades planta y equipo,06,Materiales proyectos petroleros,15,Proyectos de construccion
+activo,5,Propiedades planta y equipo,06,Materiales proyectos petroleros,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,08,Construcciones en curso,05,Construcciones y edificaciones
+activo,5,Propiedades planta y equipo,08,Construcciones en curso,10,Acueductos, plantas y redes
+activo,5,Propiedades planta y equipo,08,Construcciones en curso,15,Vias de comunicacion
+activo,5,Propiedades planta y equipo,08,Construcciones en curso,20,Pozos artesianos
+activo,5,Propiedades planta y equipo,08,Construcciones en curso,25,Proyectos de exploracion
+activo,5,Propiedades planta y equipo,08,Construcciones en curso,30,Proyectos de desarrollo
+activo,5,Propiedades planta y equipo,08,Construcciones en curso,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,05,Maquinaria y equipo
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,10,Equipo de oficina
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,15,Equipo de computacion y comunicacion
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,20,Equipo medico-cientifico
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,25,Equipo de hoteles y restaurantes
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,30,Flota y equipo de transporte
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,35,Flota y equipo fluvial y/o maritimo
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,40,Flota y equipo aereo
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,45,Flota y equipo ferreo
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,50,Plantas y redes
+activo,5,Propiedades planta y equipo,12,Maquinaria y equipos en montaje,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,05,Edificios
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,10,Oficinas
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,15,Almacenes
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,20,Fabricas y plantas industriales
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,25,Salas de exhibicion y ventas
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,30,Cafeteria y casinos
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,35,Silos
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,40,Invernaderos
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,45,Casetas y campamentos
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,50,Instalaciones agropecuarias
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,55,Viviendas para empleados y obreros
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,60,Terminal de buses y taxis
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,63,Terminal maritimo
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,65,Terminal ferreo
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,70,Parqueaderos, garajes y depositos
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,75,Hangares
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,80,Bodegas
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,95,Otros
+activo,5,Propiedades planta y equipo,16,Construcciones y edificaciones,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,20,Maquinaria y equipo,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,24,Equipo de oficina,05,Muebles y enseres
+activo,5,Propiedades planta y equipo,24,Equipo de oficina,10,Equipos
+activo,5,Propiedades planta y equipo,24,Equipo de oficina,95,Otros
+activo,5,Propiedades planta y equipo,24,Equipo de oficina,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,28,Equipo de computacion y comunicacion,05,Equipos de procesamiento de datos
+activo,5,Propiedades planta y equipo,28,Equipo de computacion y comunicacion,10,Equipos de telecomunicaciones
+activo,5,Propiedades planta y equipo,28,Equipo de computacion y comunicacion,15,Equipos de radio
+activo,5,Propiedades planta y equipo,28,Equipo de computacion y comunicacion,20,Satelites y antenas
+activo,5,Propiedades planta y equipo,28,Equipo de computacion y comunicacion,25,Lineas telefonicas
+activo,5,Propiedades planta y equipo,28,Equipo de computacion y comunicacion,95,Otros
+activo,5,Propiedades planta y equipo,28,Equipo de computacion y comunicacion,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,32,Equipo medico-cientifico,05,Medico
+activo,5,Propiedades planta y equipo,32,Equipo medico-cientifico,10,Odontologico
+activo,5,Propiedades planta y equipo,32,Equipo medico-cientifico,15,Laboratorio
+activo,5,Propiedades planta y equipo,32,Equipo medico-cientifico,20,Instrumental
+activo,5,Propiedades planta y equipo,32,Equipo medico-cientifico,95,Otros
+activo,5,Propiedades planta y equipo,32,Equipo medico-cientifico,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,05,Instalaciones para agua y energia
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,10,Acueducto, acequias y canalizaciones
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,15,Plantas de generacion hidraulica
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,20,Plantas de generacion termica
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,25,Plantas de generacion a gas
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,28,Plantas de generacion diesel, gasolina y petroleo
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,30,Plantas de distribucion
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,35,Plantas de transmision y subestaciones
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,40,Oleoductos
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,45,Gasoductos
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,47,Poliductos
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,50,Redes de distribucion
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,55,Plantas de tratamiento
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,60,Redes de recoleccion de aguas negras
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,65,Instalaciones y equipo de bombeo
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,70,Redes de distribucion de vapor
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,75,Redes de aire
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,80,Redes alimentacion de gas
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,82,Redes externas de telefonia
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,85,Plantas deshidratadoras
+activo,5,Propiedades planta y equipo,56,Acueductos plantas y redes,95,Otros
+activo,5,Propiedades planta y equipo,88,Propiedades planta y equipo en transito,05,Maquinaria y equipo
+activo,5,Propiedades planta y equipo,88,Propiedades planta y equipo en transito,10,Equipo de oficina
+activo,5,Propiedades planta y equipo,88,Propiedades planta y equipo en transito,15,Equipo de computacion y comunicacion
+activo,5,Propiedades planta y equipo,88,Propiedades planta y equipo en transito,20,Equipo medico-cientifico
+activo,5,Propiedades planta y equipo,88,Propiedades planta y equipo en transito,25,Equipo de hoteles y restaurantes
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,05,Construcciones y edificaciones
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,10,Maquinaria y equipo
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,15,Equipo de oficina
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,20,Equipo de computacion y comunicacion
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,25,Equipo medico-cientifico
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,30,Equipo de hoteles y restaurantes
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,35,Flota y equipo de transporte
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,40,Flota y equipo fluvial y/o maritimo
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,45,Flota y equipo aereo
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,50,Flota y equipo ferreo
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,55,Acueductos, plantas y redes
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,60,Armamento de vigilancia
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,65,Envases y empaques
+activo,5,Propiedades planta y equipo,92,Depreciacion acumulada,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,96,Depreciacion diferida,05,Exceso fiscal sobre la contable
+activo,5,Propiedades planta y equipo,96,Depreciacion diferida,10,Defecto fiscal sobre la contable (CR)
+activo,5,Propiedades planta y equipo,96,Depreciacion diferida,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,97,Amortizacion acumulada,05,Plantaciones agricolas y forestales
+activo,5,Propiedades planta y equipo,97,Amortizacion acumulada,10,Vias de comunicacion
+activo,5,Propiedades planta y equipo,97,Amortizacion acumulada,15,Semovientes
+activo,5,Propiedades planta y equipo,97,Amortizacion acumulada,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,98,Agotamiento acumulado,05,Minas y canteras
+activo,5,Propiedades planta y equipo,98,Agotamiento acumulado,15,Pozos artesianos
+activo,5,Propiedades planta y equipo,98,Agotamiento acumulado,20,Yacimientos
+activo,5,Propiedades planta y equipo,98,Agotamiento acumulado,99,Ajustes por inflacion
+activo,5,Propiedades planta y equipo,99,Provisiones,04,Terrenos
+activo,5,Propiedades planta y equipo,99,Provisiones,06,Materiales proyectos petroleros
+activo,5,Propiedades planta y equipo,99,Provisiones,08,Construcciones en curso
+activo,5,Propiedades planta y equipo,99,Provisiones,12,Maquinaria en montaje
+activo,5,Propiedades planta y equipo,99,Provisiones,16,Construcciones y edificaciones
+activo,5,Propiedades planta y equipo,99,Provisiones,20,Maquinaria y equipo
+activo,5,Propiedades planta y equipo,99,Provisiones,24,Equipo de oficina
+activo,5,Propiedades planta y equipo,99,Provisiones,28,Equipo de computacion y comunicacion
+activo,5,Propiedades planta y equipo,99,Provisiones,32,Equipo medico-cientifico
+activo,5,Propiedades planta y equipo,99,Provisiones,36,Equipo de hoteles y restaurantes
+activo,5,Propiedades planta y equipo,99,Provisiones,40,Flota y equipo de transporte
+activo,5,Propiedades planta y equipo,99,Provisiones,44,Flota y equipo fluvial y/o maritimo
+activo,5,Propiedades planta y equipo,99,Provisiones,48,Flota y equipo aereo
+activo,5,Propiedades planta y equipo,99,Provisiones,52,Flota y equipo ferreo
+activo,5,Propiedades planta y equipo,99,Provisiones,56,Acueductos, plantas y redes
+activo,5,Propiedades planta y equipo,99,Provisiones,60,Armamento de vigilancia
+activo,5,Propiedades planta y equipo,99,Provisiones,62,Envases y empaques
+activo,5,Propiedades planta y equipo,99,Provisiones,64,Plantaciones agricolas y forestales
+activo,5,Propiedades planta y equipo,99,Provisiones,68,Vias de comunicacion
+activo,5,Propiedades planta y equipo,99,Provisiones,72,Minas y canteras
+activo,5,Propiedades planta y equipo,99,Provisiones,80,Pozos artesianos
+activo,5,Propiedades planta y equipo,99,Provisiones,84,Yacimientos
+activo,5,Propiedades planta y equipo,99,Provisiones,88,Semovientes
+activo,5,Propiedades planta y equipo,99,Provisiones,92,Propiedades, planta y equipo en transito
+activo,6,intangibles,05,Credito mercantil,05,Formado o estimado
+activo,6,intangibles,05,Credito mercantil,10,Adquirido o comprado
+activo,6,intangibles,05,Credito mercantil,99,Ajustes por inflacion
+activo,6,intangibles,10,Marcas,05,Adquiridas
+activo,6,intangibles,10,Marcas,10,Formadas
+activo,6,intangibles,10,Marcas,99,Ajustes por inflacion
+activo,6,intangibles,15,Patentes,05,Adquiridas
+activo,6,intangibles,15,Patentes,10,Formadas
+activo,6,intangibles,20,Concesiones y franquicias,05,Concesiones
+activo,6,intangibles,20,Concesiones y franquicias,10,Franquicias
+activo,6,intangibles,20,Concesiones y franquicias,99,Ajustes por inflacion
+activo,6,intangibles,25,Derechos,05,Derechos de autor
+activo,6,intangibles,25,Derechos,10,Puesto de bolsa
+activo,6,intangibles,25,Derechos,15,En fideicomisos inmobiliarios
+activo,6,intangibles,25,Derechos,20,En fideicomisos de garantia
+activo,6,intangibles,25,Derechos,25,En fideicomisos de administracion
+activo,6,intangibles,25,Derechos,30,De exhibicion - peliculas
+activo,6,intangibles,25,Derechos,35,En bienes recibidos en arrendamiento financiero (leasing)
+activo,6,intangibles,25,Derechos,95,Otros
+activo,6,intangibles,25,Derechos,99,Ajustes por inflacion
+activo,6,intangibles,30,Know how,99,Ajustes por inflacion
+activo,6,intangibles,98,Depreciacion y.o amortizacion acumulada,05,Credito mercantil
+activo,6,intangibles,98,Depreciacion y.o amortizacion acumulada,10,Marcas
+activo,6,intangibles,98,Depreciacion y.o amortizacion acumulada,15,Patentes
+activo,6,intangibles,98,Depreciacion y.o amortizacion acumulada,20,Concesiones y franquicias
+activo,6,intangibles,98,Depreciacion y.o amortizacion acumulada,30,Derechos
+activo,6,intangibles,98,Depreciacion y.o amortizacion acumulada,35,Know how
+activo,6,intangibles,98,Depreciacion y.o amortizacion acumulada,40,Licencias
+activo,6,intangibles,98,Depreciacion y.o amortizacion acumulada,99,Ajustes por inflacion
+activo,7,Diferidos,05,Gastos pagados por anticipado,05,Intereses
+activo,7,Diferidos,05,Gastos pagados por anticipado,10,Honorarios
+activo,7,Diferidos,05,Gastos pagados por anticipado,15,Comisiones
+activo,7,Diferidos,05,Gastos pagados por anticipado,20,Seguros y fianzas
+activo,7,Diferidos,05,Gastos pagados por anticipado,25,Arrendamientos
+activo,7,Diferidos,05,Gastos pagados por anticipado,30,Bodegajes
+activo,7,Diferidos,05,Gastos pagados por anticipado,35,Mantenimiento equipos
+activo,7,Diferidos,05,Gastos pagados por anticipado,40,Servicios
+activo,7,Diferidos,05,Gastos pagados por anticipado,45,Suscripciones
+activo,7,Diferidos,05,Gastos pagados por anticipado,95,Otros
+activo,7,Diferidos,10,Cargos diferidos,04,Organizacion y preoperativos
+activo,7,Diferidos,10,Cargos diferidos,08,Remodelaciones
+activo,7,Diferidos,10,Cargos diferidos,12,Estudios, investigaciones y proyectos
+activo,7,Diferidos,10,Cargos diferidos,16,Programas para computador (software)
+activo,7,Diferidos,10,Cargos diferidos,20,utiles y papeleria
+activo,7,Diferidos,10,Cargos diferidos,24,Mejoras a propiedades ajenas
+activo,7,Diferidos,10,Cargos diferidos,28,Contribuciones y afiliaciones
+activo,7,Diferidos,10,Cargos diferidos,32,Entrenamiento de personal
+activo,7,Diferidos,10,Cargos diferidos,36,Ferias y exposiciones
+activo,7,Diferidos,10,Cargos diferidos,40,Licencias
+activo,7,Diferidos,10,Cargos diferidos,44,Publicidad, propaganda y promocion
+activo,7,Diferidos,10,Cargos diferidos,48,Elementos de aseo y cafeteria
+activo,7,Diferidos,10,Cargos diferidos,52,Moldes y troqueles
+activo,7,Diferidos,10,Cargos diferidos,56,Instrumental quirurgico
+activo,7,Diferidos,10,Cargos diferidos,60,Dotacion y suministro a trabajadores
+activo,7,Diferidos,10,Cargos diferidos,64,Elementos de roperia y lenceria
+activo,7,Diferidos,10,Cargos diferidos,68,Loza y cristaleria
+activo,7,Diferidos,10,Cargos diferidos,69,Plateria
+activo,7,Diferidos,10,Cargos diferidos,70,Cubierteria
+activo,7,Diferidos,10,Cargos diferidos,76,Impuesto de renta diferido ?debitos? por diferencias temporales
+activo,7,Diferidos,10,Cargos diferidos,80,Concursos y licitaciones
+activo,7,Diferidos,10,Cargos diferidos,95,Otros
+activo,7,Diferidos,10,Cargos diferidos,99,Ajustes por inflacion
+activo,9,Valorizaciones,05,De inversiones,05,Acciones
+activo,9,Valorizaciones,05,De inversiones,10,Cuotas o partes de interes social
+activo,9,Valorizaciones,05,De inversiones,15,Derechos fiduciarios
+activo,9,Valorizaciones,10,De propiedades planta y equipo,04,Terrenos
+activo,9,Valorizaciones,10,De propiedades planta y equipo,12,Maquinaria y equipo
+activo,9,Valorizaciones,10,De propiedades planta y equipo,16,Equipo de oficina
+activo,9,Valorizaciones,10,De propiedades planta y equipo,20,Equipo de computacion y comunicacion
+activo,9,Valorizaciones,10,De propiedades planta y equipo,24,Equipo medico-cientifico
+activo,9,Valorizaciones,10,De propiedades planta y equipo,28,Equipo de hoteles y restaurantes
+activo,9,Valorizaciones,10,De propiedades planta y equipo,32,Flota y equipo de transporte
+activo,9,Valorizaciones,10,De propiedades planta y equipo,36,Flota y equipo fluvial y/o maritimo
+activo,9,Valorizaciones,10,De propiedades planta y equipo,40,Flota y equipo aereo
+activo,9,Valorizaciones,10,De propiedades planta y equipo,44,Flota y equipo ferreo
+activo,9,Valorizaciones,10,De propiedades planta y equipo,48,Acueductos, plantas y redes
+activo,9,Valorizaciones,10,De propiedades planta y equipo,52,Armamento de vigilancia
+activo,9,Valorizaciones,10,De propiedades planta y equipo,56,Envases y empaques
+activo,9,Valorizaciones,10,De propiedades planta y equipo,60,Plantaciones agricolas y forestales
+activo,9,Valorizaciones,10,De propiedades planta y equipo,64,Vias de comunicacion
+activo,9,Valorizaciones,10,De propiedades planta y equipo,68,Minas y canteras
+activo,9,Valorizaciones,10,De propiedades planta y equipo,72,Pozos artesianos
+activo,9,Valorizaciones,10,De propiedades planta y equipo,76,Yacimientos
+activo,9,Valorizaciones,10,De propiedades planta y equipo,80,Semovientes
+activo,9,Valorizaciones,95,De otros activos,05,Bienes de arte y cultura
+activo,9,Valorizaciones,95,De otros activos,10,Bienes entregados en comodato
+activo,9,Valorizaciones,95,De otros activos,15,Bienes recibidos en pago
+activo,9,Valorizaciones,95,De otros activos,20,Inventario de semovientes

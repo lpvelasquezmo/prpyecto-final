@@ -1,0 +1,39 @@
+patrimonio,1,Capital social,05,Capital suscrito y pagado,05,Capital autorizado
+patrimonio,1,Capital social,05,Capital suscrito y pagado,10,Capital por suscribir (DB)
+patrimonio,1,Capital social,05,Capital suscrito y pagado,15,Capital suscrito por cobrar (DB)
+patrimonio,1,Capital social,15,Aportes sociales,05,Cuotas o partes de interes social
+patrimonio,1,Capital social,15,Aportes sociales,10,Aportes de socios-fondo mutuo de inversion
+patrimonio,1,Capital social,15,Aportes sociales,15,Contribucion de la empresa-fondo mutuo de inversion
+patrimonio,1,Capital social,15,Aportes sociales,20,Suscripciones del publico
+patrimonio,1,Capital social,20,Capital asignado,00,no
+patrimonio,1,Capital social,25,Inversion suplementaria al capital asignado,00,no
+patrimonio,1,Capital social,30,Capital de personas naturales,00,no
+patrimonio,1,Capital social,35,Aportes del Estado,00,no
+patrimonio,1,Capital social,40,Fondo social,00,no
+patrimonio,2,Superavit de capital,05,Prima en colocacion de acciones cuotas o partes de interes social,05,Prima en colocacion de acciones
+patrimonio,2,Superavit de capital,05,Prima en colocacion de acciones cuotas o partes de interes social,10,Prima en colocacion de acciones por cobrar (DB)
+patrimonio,2,Superavit de capital,05,Prima en colocacion de acciones cuotas o partes de interes social,15,Prima en colocacion de cuotas o partes de interes social
+patrimonio,2,Superavit de capital,10,Donaciones,05,En dinero
+patrimonio,2,Superavit de capital,10,Donaciones,10,En valores mobiliarios
+patrimonio,2,Superavit de capital,10,Donaciones,15,En bienes muebles
+patrimonio,2,Superavit de capital,10,Donaciones,20,En bienes inmuebles
+patrimonio,2,Superavit de capital,10,Donaciones,25,En intangibles
+patrimonio,2,Superavit de capital,15,Credito mercantil,00,no
+patrimonio,2,Superavit de capital,20,Know how,00,no
+patrimonio,2,Superavit de capital,25,Superavit metodo de participacion,05,De acciones
+patrimonio,2,Superavit de capital,25,Superavit metodo de participacion,10,De cuotas o partes de interes social
+patrimonio,4,Revalorizacion del patrimonio,05,Ajustes por inflacion,05,De capital social
+patrimonio,4,Revalorizacion del patrimonio,05,Ajustes por inflacion,10,De superavit de capital
+patrimonio,4,Revalorizacion del patrimonio,05,Ajustes por inflacion,15,De reservas
+patrimonio,4,Revalorizacion del patrimonio,05,Ajustes por inflacion,20,De resultados de ejercicios anteriores
+patrimonio,4,Revalorizacion del patrimonio,05,Ajustes por inflacion,25,De activos en periodo improductivo
+patrimonio,4,Revalorizacion del patrimonio,05,Ajustes por inflacion,30,De saneamiento fiscal
+patrimonio,4,Revalorizacion del patrimonio,05,Ajustes por inflacion,35,De ajustes Decreto 3019 de 1989
+patrimonio,4,Revalorizacion del patrimonio,05,Ajustes por inflacion,40,De dividendos y participaciones decretadas en acciones, cuotas o partes de interes social
+patrimonio,4,Revalorizacion del patrimonio,05,Ajustes por inflacion,45,Superavit metodo de participacion
+patrimonio,5,Dividendos o participaciones decretados en acciones cuotas o partes de interes social,05,Dividendos decretados en acciones,00,no
+patrimonio,5,Dividendos o participaciones decretados en acciones cuotas o partes de interes social,10,Participac decretadas en cuotas o partes de interes social,00,no
+patrimonio,6,Resultados del ejercicio,05,Utilidad del ejercicio,00,no
+patrimonio,6,Resultados del ejercicio,10,Perdida del ejercicio,00,no
+patrimonio,7,Resultados de ejercicios anteriores,05,Utilidades acumuladas,00,no
+patrimonio,7,Resultados de ejercicios anteriores,10,Perdidas acumuladas,00,no

@@ -23,7 +23,7 @@ public class trabajador extends Persona {
    }
     
      
-    public trabajador(boolean aux ,int dia, int mes, int anio, String cargo, String nomb, String ape, String ti,String LTi, String dire, double tel, double salario,  contrato Contra) {
+    public trabajador(boolean aux ,int dia, int mes, int anio, String cargo, String nomb, String ape, String ti,String LTi, String dire, String tel, double salario,  contrato Contra) {
         super( dia, mes, anio,  nomb, ape,  ti, LTi, dire, tel) ;
         this.salario = salario;
         this.cargo = cargo;

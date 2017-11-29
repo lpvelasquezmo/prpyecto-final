@@ -41,7 +41,7 @@ llegada = hourFormat.format(date);
 return llegada;
 }
 
-int getDia() {
+public int getDia() {
     DateFormat dateFormat = new SimpleDateFormat("dd");
 System.out.println("dia: "+dateFormat.format(date));
 

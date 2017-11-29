@@ -1,1 +1,2 @@
-true;11;1;1999;comprador;alejandro;fernandez;9912;funza;wedfv;123456.0;900000.0;9912;
+true;1;1;1999;vender;luna;velas;9911;funza;funza;12345.0;800000.0;9911;
+false;1;1;1997;vender;yuye;yueiw;8888;funza;carref;2345.0;800000.0;8888;

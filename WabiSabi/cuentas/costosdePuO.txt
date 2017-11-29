@@ -1,0 +1,4 @@
+costos de produccion,1,Materia prima,00,no,00,no
+costos de produccion,2,Mano de obra directa,00,no,00,no
+costos de produccion,3,Costos indirectos,00,no,00,no
+costos de produccion,4,Contratos de servicios,00,no,00,no

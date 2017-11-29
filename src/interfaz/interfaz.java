@@ -6,11 +6,17 @@
 package interfaz;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.Iterator;
 import java.util.Scanner;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import wabisabinomina.Empresa;
+import wabisabinomina.FechaActual;
 import wabisabinomina.WabiSabiNomina;
+import wabisabinomina.contrato;
+import wabisabinomina.trabajador;
 
 
 /**
@@ -22,9 +28,13 @@ public class interfaz extends javax.swing.JFrame {
     String usuario ;
     boolean entro= false;
     String contraseña;
-     File archiEmpr = new File("Empresa/Datos Empresa.txt");
+      File archiTrab = new File("Empresa/Trabajadores.txt");
+    File archiEmpr = new File("Empresa/Datos Empresa.txt");
+    File archiCont = new File("Empresa/Contratos.txt");
      
           Empresa empresa = new Empresa();
+          
+          
           
     /**
      * Creates new form interfaz
@@ -32,7 +42,15 @@ public class interfaz extends javax.swing.JFrame {
     public interfaz() {
         initComponents();
                 this.setExtendedState(MAXIMIZED_BOTH);
+new WabiSabiNomina().iniciar(empresa, archiEmpr, de);
+        new WabiSabiNomina().leerContras(archiCont, empresa);
+        //System.out.println("hoa1   " +empresa.getContratos().size());
 
+        // new WabiSabiNomina().fin ( empresa, archiCont);
+        //  new WabiSabiNomina().leerTurns(archiTur, empresa);
+        // System.out.println("hoa2");
+        new WabiSabiNomina().leerTrabs(archiTrab, empresa);
+        
         setIconImage(new ImageIcon(getClass().getResource("/interfaz/imagenes/logows1.png")).getImage());
         new WabiSabiNomina().iniciar(empresa, archiEmpr, de);
         System.out.println(" usu  " + empresa.getUsuario()+ " contra  " + empresa.getContraseña());
@@ -137,7 +155,7 @@ public class interfaz extends javax.swing.JFrame {
         org.jdesktop.beansbinding.Binding binding = org.jdesktop.beansbinding.Bindings.createAutoBinding(org.jdesktop.beansbinding.AutoBinding.UpdateStrategy.READ_WRITE, this, org.jdesktop.beansbinding.ELProperty.create("jdf"), jLabelFondo, org.jdesktop.beansbinding.BeanProperty.create("text"));
         bindingGroup.addBinding(binding);
 
-        getContentPane().add(jLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-110, -60, 1200, 860));
+        getContentPane().add(jLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-110, -60, 1440, 860));
 
         bindingGroup.bind();
 
@@ -177,14 +195,78 @@ public class interfaz extends javax.swing.JFrame {
         }
         
         if (entro ==true){
-       MenuPrincipal a = new MenuPrincipal() ;
+                     boolean pon =  new interfaz().fin(empresa, archiCont);
+                     this.setVisible(false);
+if (pon == false){
+      
+                     MenuPrincipal a = new MenuPrincipal() ;
        a.setVisible(true);
        this.setVisible(false);
+                    
+                } 
        }else {
            this.setVisible(true);
        }
     }//GEN-LAST:event_jButtonIniciarSMouseClicked
 
+    
+    
+    public boolean fin (Empresa empresa, File archiContra){
+        Scanner hg = new Scanner (System.in);
+        boolean pan = false;
+        System.out.println("ENTRO FIN\n");
+        
+             
+        
+      
+          for (Iterator <contrato> con  = empresa.getContratos().iterator(); con.hasNext();){
+                                   contrato x = con.next();
+                                   
+                                   System.out.println("ENTRO for contra\n");
+                                   
+            if (x.getTipo().equals("Fijo")){
+                
+               
+                System.out.println("CONTRA:  "+ x.getId());
+                
+                FechaActual fecha = new FechaActual();
+        int hoyD = fecha.getDia();
+        int hoyM = fecha.getMes();
+        int hoyA = fecha.getAño();
+                
+                int año = x.getFechaF().getAño() - hoyA;
+                int mes = x.getFechaF().getMes() - hoyM;
+                int dia = x.getFechaF().getDia() - hoyD;
+                
+                System.out.println("AÑO: \n" + año);
+                System.out.println("mes : \n" + mes);
+                System.out.println("dia : \n" + dia);
+                System.out.println("ENTRO \n");
+                if ( año == 0 && mes == 0 && dia <= 5 ){
+                    
+                                    System.out.println("ENTRO if trabajo \n");
+
+                    for ( Iterator <trabajador> tra  = empresa.getTras().iterator(); tra.hasNext();){
+                        trabajador trabaja = tra.next();
+                       // System.out.println("ENTRO FOR EACH \n");
+                        if (trabaja.getTi().equals(x.getId())){
+                          
+                            Aviso a = new Aviso ();
+                            pan=true;
+                            a.setVisible(true);
+                            this.setVisible(false);
+                            
+                            
+                        }
+                    }
+                } 
+            }
+        }
+      return pan;
+     }
+    
+    
+    
     private void jTextFieldUsuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldUsuActionPerformed
 //this.usuario = jTextFieldUsu.getText();
 //        System.out.println(" usua In: " + this.usuario);
@@ -241,4 +323,5 @@ public class interfaz extends javax.swing.JFrame {
     private javax.swing.JTextField jTextFieldUsu;
     private org.jdesktop.beansbinding.BindingGroup bindingGroup;
     // End of variables declaration//GEN-END:variables
+
 }

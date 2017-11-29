@@ -1,0 +1,7 @@
+1,activo,debito
+2,pasivo,credito
+3,patrimonio,credito
+4,ingresos,credito
+5,gastos,debito
+6,costos de venta,credito
+7,costos de produccion,credito

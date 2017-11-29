@@ -1,0 +1,70 @@
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,05,Cultivo de cereales
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,10,Cultivos de hortalizas legumbres y plantas ornamentales
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,15,Cultivos de frutas nueces y plantas aromaticas
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,20,Cultivo de cafe
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,25,Cultivo de flores
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,30,Cultivo de caña de azucar
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,35,Cultivo de algodon y plantas para material textil
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,40,Cultivo de banano
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,45,Otros cultivos agricolas
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,50,Cria de ovejas cabras asnos mulas y burdeganos
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,55,Cria de ganado caballar y vacuno
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,60,Produccion avicola
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,65,Cria de otros animales
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,70,Servicios agricolas y ganaderos
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,75,Actividad de caza
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,80,Actividad de silvicultura
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,95,Actividades conexas
+costos de venta,1,Costo de ventas y de prestacion de servicios,05,Agricultura ganaderia caza y silvicultura,99,Ajustes por inflacion
+costos de venta,1,Costo de ventas y de prestacion de servicios,10,Pesca,05,Actividad de pesca
+costos de venta,1,Costo de ventas y de prestacion de servicios,10,Pesca,10,Explotacion de criaderos de peces
+costos de venta,1,Costo de ventas y de prestacion de servicios,10,Pesca,95,Actividades conexas
+costos de venta,1,Costo de ventas y de prestacion de servicios,10,Pesca,99,Ajustes por inflacion
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,05,Carbon
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,10,Petroleo crudo
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,12,Gas natural
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,14,Servicios relacionados con extraccion de petroleo y gas
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,15,Minerales de hierro
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,20,Minerales metaliferos no ferrosos
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,25,Piedra arena y arcilla
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,27,Piedras preciosas
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,28,Oro
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,30,Otras minas y canteras
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,32,Prestacion de servicios sector minero
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,95,Actividades conexas
+costos de venta,1,Costo de ventas y de prestacion de servicios,15,Explotacion de minas y canteras,99,Ajustes por inflacion
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,01,Produccion y procesamiento de carnes y productos carnicos
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,02,Productos de pescado
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,03,Productos de frutas legumbres y hortalizas
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,04,Elaboracion de aceites y grasas
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,05,Elaboracion de productos lacteos
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,06,Elaboracion de productos de molineria
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,07,Elaboracion de almidones y derivados
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,08,Elaboracion de alimentos para animales
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,09,Elaboracion de productos para panaderia
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,10,Elaboracion de azucar y melazas
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,11,Elaboracion de cacao chocolate y confiteria
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,12,Elaboracion de pastas y productos farinaceos
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,13,Elaboracion de productos de cafe
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,14,Elaboracion de otros productos alimenticios
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,15,Elaboracion de bebidas alcoholicas y alcohol etilico
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,16,Elaboracion de vinos
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,17,Elaboracion de bebidas malteadas y de malta
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,18,Elaboracion de bebidas no alcoholicas
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,19,Elaboracion de productos de tabaco
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,20,Preparacion e hilatura de fibras textiles y tejeduria
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,21,Acabado de productos textiles
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,22,Elaboracion de articulos de materiales textiles
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,23,Elaboracion de tapices y alfombras
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,24,Elaboracion de cuerdas cordeles bramantes y redes
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,25,Elaboracion de otros productos textiles
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,26,Elaboracion de tejidos
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,27,Elaboracion de prendas de vestir
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,28,Preparacion adobo y teñido de pieles
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,29,Curtido adobo o preparacion de cuero
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,30,Elaboracion de maletas bolsos y similares
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,31,Elaboracion de calzado
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,32,Produccion de madera articulos de madera y corcho
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,33,Elaboracion de pasta y productos de madera papel y carton
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,34,Ediciones y publicaciones
+costos de venta,1,Costo de ventas y de prestacion de servicios,20,Industrias manufactureras,35,Impresion
